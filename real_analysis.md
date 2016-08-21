@@ -48,7 +48,7 @@ $$
 > $$(x_1, x_2, x_3) \cdot (y_1, y_2, y_3) = x_1y_1 + x_2y_2 + x_3y_3$$
 
 Finally, how many real numbers are there? 
-Cantor showed there are actually uncountably many---you can never come up with a way to write a list of all real numbers even if you had all the time in the world. 
+Cantor showed there are actually uncountably many---you can never come up with a way to write a list of all real numbers even if you had all the time in the world.
 
 > **Idea**: suppose someone claimed to have a list of all reals \(this list would have to be infinite\). Then, we write down a number that's different from each one on the list in the nth decimal place
 
@@ -56,13 +56,11 @@ Nevertheless, the set of rationals is countable. Make a table:
 
 
 
-
+![](https://divisbyzero.files.wordpress.com/2013/04/screen-shot-2013-04-16-at-9-23-14-pm.png)
 
 > #### warning::Infinity
 > 
 > is not in the set of real numbers
 
 ## Topology
-
-
 
