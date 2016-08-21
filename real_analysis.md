@@ -77,17 +77,17 @@ A norm is \(for $$x, y in \mathbb{R}^n$$\):
 
 Common examples are euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and sup-norm \(returns the peak value across all dimesions of vector\).
 
+> remember **vectors spaces** are sets with nice properties about addition and scalar multiplication
+
 > #### primary::L2 and Lp norms
 > 
-> $$
-> 
-> \(\sum\_i \\| x\\_i \\|^p\)^{1\/p}
 > 
 > $$
+> (\sum_i \| x\_i \|^p)^{1/p}
+> $$
+> 
 > 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
-
-
 
 In the case of L2 p = 2
 
