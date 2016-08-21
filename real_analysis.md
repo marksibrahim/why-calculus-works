@@ -70,6 +70,7 @@ A norm is:
 
 1. positive \(\|\|x\|\| &gt; 0, for all x in the set\); definite \|\| x \|\| = 0 if and only if x =0
 
-2. triangle: $$ \| x + y \| \leq \| x \| + \| y \| $$
+2. \|\|ax\|\| = a\|\|x\|\|
+3. triangle: $$ \| x + y \| \leq \| x \| + \| y \| $$
 
 
