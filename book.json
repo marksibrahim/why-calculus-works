@@ -2,7 +2,8 @@
     "plugins": [
         "mathjax",
         "bootstrap-callout",
-        "expandable-chapters"
+        "expandable-chapters",
+        "anchors"
     ],
     "pluginsConfig": {}
 }
