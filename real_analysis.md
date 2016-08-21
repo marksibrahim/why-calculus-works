@@ -62,3 +62,5 @@ Nevertheless, the set of rationals is countable. Make a table:
 
 ## Topology
 
+We can more generally define a **norm **on a set as way to measure distance between two points. 
+
