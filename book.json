@@ -2,7 +2,7 @@
     "plugins": [
         "mathjax",
         "toggle-chapters",
-        "hints"
+        "-hints"
     ],
     "pluginsConfig": {}
 }
