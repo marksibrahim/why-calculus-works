@@ -10,7 +10,7 @@ These are the numbers you and I know: 0, 1, -1, 1.5, and even $\pi$.
 It turns out many numbers are **irrational** including $$\pi$$, $$\sqrt{2}$$, $$\sqrt{3}$$, and $$\sqrt{n}$$ for
 any $$n$$ that's not a perfect square ($$\neq$$ a number squared). 
 
-> Idea: use divisibility to show no rational number squared is 2. 
+> **Idea**: use divisibility to show no rational number squared is 2. 
 >
 >  1. if $$\sqrt{2} = a / b$$, then $$ 2 = a^2 / b^2$$ $$\implies$$ $a^2$ is divisible by 2 
 >  2. So $$a$$ must be divisible by 2, implying $$b^2$$ is also divisible by 2, a contradiction!
