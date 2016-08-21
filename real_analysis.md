@@ -32,8 +32,3 @@ $$|\vec{u} \cdot \vec{v} |
 > this explain dot products and vectors
 
 why is this not rendering?
-
-
-> #### Title
->
-> Content
