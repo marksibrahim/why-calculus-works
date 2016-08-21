@@ -23,6 +23,12 @@ More abstractly, the real numbers are uniquely determined by a handful of natura
   * e.g., \(0, 1\) has 1 as an upper bound, but 1 is not in the set \(0, 1\)
 
 
+A nice consequence of this is the **triangle inequality: **$$ \| x + y \| \leq \|x\| + \|y\|$$ for any $$x, y \in \mathbb{R}$$.
+
+> **Idea**: look at cases where x, y are positive \(Spivak has a nice proof of this\)
+
+
+
 It turns out even in $$\mathbb{R}^n$$, a nice property about order called **Cauchy Schwarz** holds:
 
 
