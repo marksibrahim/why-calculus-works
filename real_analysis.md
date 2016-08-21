@@ -33,8 +33,7 @@ $$|\vec{u} \cdot \vec{v} |
 > * it looks like (x1, x2, x3) where each $$x$$ is in $$\mathbb{R}$$
 > 
 > dot product is an operation on two vectors defined as:
-> $$(x_1, x_2, x_3) \cdot (y_1, y_2, y_3) = 
-> x_1y_1 + x_2y_2 + x_3y_3$$
+> $$(x_1, x_2, x_3) \cdot (y_1, y_2, y_3) = x_1y_1 + x_2y_2 + x_3y_3$
 
 Finally, how many real numbers are there? 
 Cantor showed there are actually uncountably many---you can never come up with a way to write a list of all real numbers even if you had all the time in the world.
