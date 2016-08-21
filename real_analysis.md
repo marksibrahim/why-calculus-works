@@ -29,10 +29,11 @@ $$|\vec{u} \cdot \vec{v} |
 
 > #### Vectors and dot products
 >
-> a vector is a point in $$\mathbb{R}^n$
-> it looks like (x1, x2, x3) where each $$x$$ is in $$\mathbb{R}$$
-> dot product is an operation on two vectors defined as:
-> $$(x1, x2, x3) \cdot (y1, y2, y3) = 
-> x1y1 + x2y2 + x3y3$$
+> a vector is a point in $$\mathbb{R}^n$$
+> * it looks like (x1, x2, x3) where each $$x$$ is in $$\mathbb{R}$$
+> * dot product is an operation on two vectors defined as:
+> $$(x_1, x_2, x_3) \cdot (y_1, y_2, y_3) = 
+> x_1y_1 + x_2y_2 + x_3y_3$$
 
 why is this not rendering?
+
