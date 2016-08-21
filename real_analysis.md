@@ -77,10 +77,21 @@ A norm is \(for $$x, y in \mathbb{R}^n$$\):
 
 Common examples are euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and sup-norm \(returns the peak value across all dimesions of vector\).
 
+
+
 > #### primary::L2 and Lp norms
 > 
+> $$
+> 
+> \sum\_i \| x\_i \|^p 
 > 
 > $$
-> ( \sum_i \|x\_i\|^p)^(1/p)
-> $$
+
+
+
+
+
+\(∑i∥x\_i∥p\)\(1\/p\)
+
+
 
