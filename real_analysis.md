@@ -36,5 +36,6 @@ $$|\vec{u} \cdot \vec{v} |
 > $$(x_1, x_2, x_3) \cdot (y_1, y_2, y_3) = 
 > x_1y_1 + x_2y_2 + x_3y_3$$
 
-why is this not rendering?
-
+Finally, how many real numbers are there? 
+Cantor showed there are actually uncountably many---you can never come up with a way to write a list of all real numbers even if you had all the time in the world.
+> Idea: suppose someone claimed to have a list of all reals (this list would have to be infinite). Then, we write down a number that's different from each one on the list in the nth decimal place!
