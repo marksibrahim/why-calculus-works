@@ -1,8 +1,7 @@
 {
     "plugins": [
         "mathjax",
-        "toggle-chapters",
-        "-hints"
+        "toggle-chapters"
     ],
     "pluginsConfig": {}
 }
