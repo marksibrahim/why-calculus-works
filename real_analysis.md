@@ -29,7 +29,7 @@ $$
 $$
 
 
-> #### primary::Vectors and dot products
+> #### primary::Vectors
 >
 > a vector is a point in $$\mathbb{R}^n$$
 > * it looks like $$(x_1, x_2, x_3)$$ where each $$x$$ is in $$\mathbb{R}$$
