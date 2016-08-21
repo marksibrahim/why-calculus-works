@@ -3,7 +3,6 @@
         "mathjax",
         "plugin-hints",
         "toggle-chapters",
-        "anchors"
     ],
     "pluginsConfig": {}
 }
