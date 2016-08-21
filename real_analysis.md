@@ -51,10 +51,10 @@ Finally, how many real numbers are there?
 Cantor showed there are actually uncountably many---you can never come up with a way to write a list of all real numbers even if you had all the time in the world.
 
 > **Idea**: suppose someone claimed to have a list of all reals \(this list would have to be infinite\). Then, we write down a number that's different from each one on the list in the nth decimal place
-
-
-
-> #### warning::
+> 
+> #### warning::Infinity 
+> 
+> is not in the set of real numbers
 
 ## Topology
 
