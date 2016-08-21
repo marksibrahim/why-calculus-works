@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [Real Analysis](chapter1.md)
 * Complex Analysis
 
