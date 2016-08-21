@@ -1,6 +1,6 @@
 # Real Analysis
 
-This will begin with a description of real numbers, completeness, compactness, and some topology—ultimately leading to integration and differentiation. 
+This will begin with a description of real numbers, completeness, compactness, and some topology--ultimately leading to integration and differentiation. 
 
 ## Real Numbers
 
@@ -26,6 +26,9 @@ $$|\vec{u} \cdot \vec{v} |
 \leq 
 |\vec{u}| | \vec{v} | $$
 
+> #### primary::dot product
+>
+> dot product blah blah 
 
 
 
