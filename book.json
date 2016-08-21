@@ -1,4 +1,3 @@
 {
-    "plugins": ["mathjax"]
-    "plugins" : [ "bootstrap-callout" ]
+    "plugins": ["mathjax","bootstrap-callout"]
 }
