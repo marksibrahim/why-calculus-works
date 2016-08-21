@@ -11,7 +11,8 @@ any $$n$$ that's not a perfect square ($$\neq$$ a number squared).
 
 > idea: use divisibility to show no rational number squared is 2. 
 
->  if $$\sqrt{2} = a / b$$, then $$ 2 = a^2 / b^2$$ $$\implies$$ $a^2$ is divisible by 2
+>  if $$\sqrt{2} = a / b$$, then $$ 2 = a^2 / b^2$$ $$\implies$$ $a^2$ is divisible by 2.
+
   > this means $$a$$ must be divisible by 2
   > so we get that $$b^2$$ is also divisible by 2, a contradiction
 
