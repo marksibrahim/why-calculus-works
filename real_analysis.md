@@ -68,11 +68,11 @@ We can define a more general way to measure distance between two points in $$\ma
 
 A norm is \(for $$x, y in \mathbb{R}^n$$\):
 
-1. positive \(\|\|x\|\| &gt; 0, for all x in the set\); definite \|\| x \|\| = 0 if and only if x =0
+1. _positive_ \(\|\|x\|\| &gt; 0, for all x in the set\); _definite_ \|\| x \|\| = 0 if and only if x =0
 
 2. \|\|ax\|\| = a\|\|x\|\|, for any a in $$\mathbb{C}$$
 
-3. triangle: $$ \| x + y \| \leq \| x \| + \| y \| $$
+3. _triangle_: $$ \| x + y \| \leq \| x \| + \| y \| $$
 
 
 Common examples are euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and sup-norm \(returns the peak value across all dimesions of vector\).
@@ -92,8 +92,4 @@ Common examples are euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and su
 With a notion of distance \(often, we use L2 or Euclidean distance\), we can define **neighborhoods** or **open balls** around a point:
 
 **B\(x; r\) **is a ball of radius r around x = set of points which are within a distance r of x \(strictly &lt; here\)
-
-
-
-
 
