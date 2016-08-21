@@ -31,6 +31,8 @@ $$|\vec{u} \cdot \vec{v} |
 >
 > this explain dot product
 
+why is this not rendering?
+
 
 
 
