@@ -54,13 +54,19 @@ Cantor showed there are actually uncountably many---you can never come up with a
 
 Nevertheless, the set of rationals is countable. Make a table:
 
+
+
 ![](https://divisbyzero.files.wordpress.com/2013/04/screen-shot-2013-04-16-at-9-23-14-pm.png)
+
+This is a great TedEd \[video\]\(http:\/\/ed.ted.com\/lessons\/how-big-is-infinity\) discussing infinity and the reals. 
 
 > #### warning::Infinity + or -
 > 
 > is **not** in the set of real numbers
 
+
+
 ## Topology
 
-We can more generally define a **norm **on a set as way to measure distance between two points. 
+We can more generally define a **norm **on a set as way to measure distance between two points.
 
