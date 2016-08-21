@@ -1,7 +1,7 @@
 {
     "plugins": [
         "mathjax",
-        "bootstrap-callout"
+        "-bootstrap-callout"
     ],
     "pluginsConfig": {}
 }
