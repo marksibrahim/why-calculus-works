@@ -27,12 +27,13 @@ $$|\vec{u} \cdot \vec{v} |
 \leq 
 |\vec{u}| | \vec{v} | $$
 
-> #### Vectors and dot products
+> #### Vectors
 >
 > this explain dot products and vectors
 
 why is this not rendering?
 
 
-
-
+> #### Title
+>
+> Content
