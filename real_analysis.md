@@ -14,4 +14,19 @@ any $$n$$ that's not a perfect square ($$\neq$$ a number squared).
 >  1. if $$\sqrt{2} = a / b$$, then $$ 2 = a^2 / b^2$$ $$\implies$$ $a^2$ is divisible by 2 
 >  2. So $$a$$ must be divisible by 2, implying $$b^2$$ is also divisible by 2, a contradiction!
 
+More abstractly, the real numbers are uniquely determined by a handful of natural requirements on a set:
+* field (operations: +, x with dentity, inverses, commutiativity, associativity, and distribution)
+* order: trichotomy (either >, < or =)
+* completeness (or equivalent least upper bound property)
+  * this says, every set that has an upper bound has a *least* upper bound.
+
+It turns out even in $$\mathbb{R}^n$$, a nice property about order called **Cauchy Schwarz** holds:
+
+$$|\vec{u} \cdot \vec{v} | 
+\leq 
+|\vec{u}| | \vec{v} | $$
+
+
+
+
 
