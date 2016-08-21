@@ -56,9 +56,9 @@ Nevertheless, the set of rationals is countable. Make a table:
 
 ![](https://divisbyzero.files.wordpress.com/2013/04/screen-shot-2013-04-16-at-9-23-14-pm.png)
 
-> #### warning::Infinity + or - 
+> #### warning::Infinity + or -
 > 
-> is not in the set of real numbers
+> is **not** in the set of real numbers
 
 ## Topology
 
