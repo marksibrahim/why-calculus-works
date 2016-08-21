@@ -31,6 +31,7 @@ $$|\vec{u} \cdot \vec{v} |
 >
 > a vector is a point in $$\mathbb{R}^n$$
 > * it looks like (x1, x2, x3) where each $$x$$ is in $$\mathbb{R}$$
+> 
 > * dot product is an operation on two vectors defined as:
 > $$(x_1, x_2, x_3) \cdot (y_1, y_2, y_3) = 
 > x_1y_1 + x_2y_2 + x_3y_3$$
