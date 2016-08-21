@@ -27,8 +27,12 @@ $$|\vec{u} \cdot \vec{v} |
 \leq 
 |\vec{u}| | \vec{v} | $$
 
-> #### Vectors
+> #### Vectors and dot products
 >
-> this explain dot products and vectors
+> a vector is a point in $$\mathbb{R}^n$
+> it looks like (x1, x2, x3) where each $$x$$ is in $$\mathbb{R}$$
+> dot product is an operation on two vectors defined as:
+> $$(x1, x2, x3) \cdot (y1, y2, y3) = 
+> x1y1 + x2y2 + x3y3$$
 
 why is this not rendering?
