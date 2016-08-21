@@ -5,7 +5,7 @@ This will begin with a description of real numbers, completeness, compactness, a
 
 ## Real Numbers
 
-These are the numbers you and I know: 0, 1, -1, 1.5, and even $\pi$. 
+These are the numbers you and I know: 0, 1, -1, 1.5, and even $$\pi$$. 
 **Rational** numbers are ones we can represent as an integer divided by another.
 It turns out many numbers are **irrational** including $$\pi$$, $$\sqrt{2}$$, $$\sqrt{3}$$, and $$\sqrt{n}$$ for
 any $$n$$ that's not a perfect square ($$\neq$$ a number squared). 
