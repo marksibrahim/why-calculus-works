@@ -6,8 +6,8 @@ Because we so often forget material we learn, I'm recording my understanding of 
 
 **Outline**:
 
-
 * Real Analysis
+
   * real numbers
   * topology
   * 
@@ -16,4 +16,7 @@ Because we so often forget material we learn, I'm recording my understanding of 
 
   * complex plane
 
+
+
+Althought dry, Apostol's _Mathematical Analysis_ is a helpful reference. 
 
