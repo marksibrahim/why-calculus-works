@@ -78,7 +78,7 @@ A norm is \(for $$x, y in \mathbb{R}^n$$\):
 Common examples are euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and sup-norm \(returns the peak value across all dimesions of vector\).
 
 > remember **vectors spaces** are sets with nice properties about addition and scalar multiplication
-
+> 
 > #### primary::L2 and Lp norms
 > 
 > 
@@ -89,5 +89,7 @@ Common examples are euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and su
 > 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
 
-In the case of L2 p = 2
+With a notion of distance \(often, we use L2 or Euclidean distance\), we can define **neighborhoods** or **open balls** around a point:
+
+**B\(x; r\) **is a ball of radius r around x = set of points which are within a distance r of x \(strictly &lt; here\)
 
