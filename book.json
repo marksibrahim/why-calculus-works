@@ -1,7 +1,7 @@
 {
     "plugins": [
         "mathjax",
-        "bootstrap-callout",
+        "plugin-hints",
         "toggle-chapters",
         "anchors"
     ],
