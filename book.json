@@ -2,7 +2,7 @@
     "plugins": [
         "-mathjax",
         "bootstrap-callout",
-        "katex"
+        "-katex"
     ],
     "pluginsConfig": {}
 }
