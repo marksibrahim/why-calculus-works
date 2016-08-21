@@ -14,12 +14,13 @@ any $$n$$ that's not a perfect square \($$\neq$$ a number squared\).
 > 1. if $$\sqrt{2} = a / b$$, then $$ 2 = a^2 / b^2$$ $$\implies a^2$$ is divisible by 2 
 > 2. So $$a$$ must be divisible by 2, implying $$b^2$$ is also divisible by 2, a contradiction!
 
-More abstractly, the real numbers are uniquely determined by a handful of natural requirements on a set:
+More abstractly, the real numbers are uniquely determined by a handful of natural **requirements** on a set:
 
-* field \(operations: +, x with dentity, inverses, commutiativity, associativity, and distribution\)
-* order: trichotomy \(either &gt;, &lt; or =\)
-* completeness \(= least upper bound property\)
-  *  every set with an upper bound has a _least_ upper bound.
+* **field** \(operations: +, x with dentity, inverses, commutiativity, associativity, and distribution\)
+* **order**: trichotomy \(either &gt;, &lt; or =\)
+* **completeness** \(= least upper bound property\)
+  * every set with an upper bound has a _least_ upper bound.
+  * e.g., \(0, 1\) has 1 as an upper bound, but 1 is not in the set \(0, 1\)
 
 
 It turns out even in $$\mathbb{R}^n$$, a nice property about order called **Cauchy Schwarz** holds:
