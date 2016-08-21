@@ -29,7 +29,7 @@ $$|\vec{u} \cdot \vec{v} |
 
 > #### success::Vectors and dot products
 >
-> this explain dot product
+> this explain dot products and vectors
 
 why is this not rendering?
 
