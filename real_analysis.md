@@ -64,5 +64,5 @@ This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) dis
 
 ## Topology
 
-We can more generally define a **norm **on a set as way to measure distance between two points.
+We can more generally define way to measure distance between two points in a set, called a **norm**, denoted \|\| \* \|\|.
 
