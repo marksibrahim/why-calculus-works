@@ -27,8 +27,6 @@ A nice consequence of this is the **triangle inequality: **$$ \| x + y \| \leq \
 
 > **Idea**: look at cases where x, y are positive \(Spivak has a nice proof of this\)
 
-
-
 It turns out even in $$\mathbb{R}^n$$, a nice property about order called **Cauchy Schwarz** holds:
 
 
@@ -52,13 +50,11 @@ $$
 Finally, how many real numbers are there? 
 Cantor showed there are actually uncountably many---you can never come up with a way to write a list of all real numbers even if you had all the time in the world.
 
-> Idea: suppose someone claimed to have a list of all reals \(this list would have to be infinite\). Then, we write down a number that's different from each one on the list in the nth decimal place!
+> **Idea**: suppose someone claimed to have a list of all reals \(this list would have to be infinite\). Then, we write down a number that's different from each one on the list in the nth decimal place
 
-This is more stuff.
 
-> #### primary::Title
-> 
-> Content of mine
+
+> #### warning::
 
 ## Topology
 
