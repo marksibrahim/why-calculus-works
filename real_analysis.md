@@ -27,7 +27,7 @@ $$|\vec{u} \cdot \vec{v} |
 \leq 
 |\vec{u}| | \vec{v} | $$
 
-> #### success::Vectors and dot products
+> #### Vectors and dot products
 >
 > this explain dot products and vectors
 
