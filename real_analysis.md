@@ -22,11 +22,14 @@ More abstractly, the real numbers are uniquely determined by a handful of natura
 
 It turns out even in $$\mathbb{R}^n$$, a nice property about order called **Cauchy Schwarz** holds:
 
-$$|\vec{u} \cdot \vec{v} | 
+$$
+|\vec{u} \cdot \vec{v} | 
 \leq 
-|\vec{u}| | \vec{v} | $$
+|\vec{u}| | \vec{v} | 
+$$
 
-> #### Vectors and dot products
+
+> #### primary::Vectors and dot products
 >
 > a vector is a point in $$\mathbb{R}^n$$
 > * it looks like $$(x_1, x_2, x_3)$$ where each $$x$$ is in $$\mathbb{R}$$
