@@ -64,13 +64,12 @@ This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) dis
 
 ## Topology
 
-We can more generally define way to measure distance between two points in a set, called a **norm**, denoted \|\| \* \|\|.
-
-
+We can define a more general way to measure distance between two points in $$\mathbb{R}^n$$, called a **norm**, denoted \|\| \* \|\|.
 
 A norm is:
 
 1. positive \(\|\|x\|\| &gt; 0, for all x in the set\); definite \|\| x \|\| = 0 if and only if x =0
 
 2. triangle: $$ \| x + y \| \leq \| x \| + \| y \| $$
+
 
