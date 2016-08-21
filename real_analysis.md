@@ -66,11 +66,11 @@ This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) dis
 
 We can define a more general way to measure distance between two points in $$\mathbb{R}^n$$, called a **norm**, denoted \|\| \* \|\|.
 
-A norm is:
+A norm is \(for $$x, y in \mathbb{R}^n$$\):
 
 1. positive \(\|\|x\|\| &gt; 0, for all x in the set\); definite \|\| x \|\| = 0 if and only if x =0
 
-2. \|\|ax\|\| = a\|\|x\|\|
-3. triangle: $$ \| x + y \| \leq \| x \| + \| y \| $$
+2. \|\|ax\|\| = a\|\|x\|\|, for any a in $$\mathbb{C}$$
 
+3. triangle: $$ \| x + y \| \leq \| x \| + \| y \| $$
 
