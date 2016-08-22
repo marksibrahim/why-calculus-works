@@ -149,5 +149,9 @@ The idea is that if we go out far enough in the sequence, the terms are very clo
 
 We can also talk about the limit of a function. In this case, we specify inputs to be within $$\delta$$ of some input to achieve an output within $$\epsilon$$ of the desired limit.
 
+### Convergence
+
+a sequence, $$a\_n$$, **converges** to some value $$p$$ if $$\lim\_{n \rightarrow \infty} a\_n = p$$.
+
 \[in progress...\]
 
