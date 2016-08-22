@@ -125,27 +125,27 @@ every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
 
 \[TODO: fill in from handwritten notes\]
 
-
-
 ## Limits and Continuity
 
 The limit, call it L, of a sequence of real numbers $$a\_n$$, is denoted
 
-$$
-
-\lim\_{n \rightarrow \infty} a\_n = L
 
 $$
-
-This means for any number $$\epsilon &gt; 0$$, there exists $$N$$ such that for all $$n &gt; N$$, 
-
+\lim_{n \rightarrow \infty} a_n = L
 $$
 
-\| L - a\_n \| &lt; \epsilon
+
+This means for any number $$\epsilon > 0$$, there exists $$N$$ such that for all $$n > N$$,
+
 
 $$
+| L - a_n | < \epsilon
+$$
+
 
 > we can substitute \| \| with any norm
+
+The idea is that if we go out far enough in the sequence, the terms are very close to the limit value L. 
 
 \[in progress...\]
 
