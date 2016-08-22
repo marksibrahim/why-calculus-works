@@ -119,13 +119,11 @@ every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
 
 > **bounded** means contained in a ball of finite radius
 
-
-
 \[TODO: fill in proof and intuition from handwritten notes\]
 
+### Covers, Compactness, and Heine-Borel Theorem
 
-
-
+\[TODO: fill in from handwritten notes\]
 
 \[in progress...\]
 
