@@ -17,6 +17,7 @@ Because we so often forget material we learn, I'm recording my understanding of 
 
 * Complex Analysis \(start with Weselyan notes\)
   * complex plane
+  * ...
 
 
 Althought dry, Apostol's _Mathematical Analysis_ is a helpful reference.
