@@ -79,7 +79,7 @@ Common examples are euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and su
 
 > remember **vectors spaces** are sets with nice properties about addition and scalar multiplication
 
-Norms in this context will later generalize to classes of functions with nice integration properties in measure theory. 
+Norms in this context will later generalize to classes of functions with nice integration properties in measure theory.
 
 > #### primary::L2 and Lp norms
 > 
@@ -94,4 +94,8 @@ Norms in this context will later generalize to classes of functions with nice in
 With a notion of distance \(often, we use L2 or Euclidean distance\), we can define **neighborhoods** or **open balls** around a point:
 
 **B\(x; r\) **is a ball of radius r around x = set of points which are within a distance r of x \(strictly &lt; here\)
+
+
+
+\[in progress...\]
 
