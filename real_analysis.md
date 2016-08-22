@@ -107,7 +107,7 @@ A set is **closed**, if the set's complement is open.
 
 > #### warning::closed and open
 > 
-> are not mutually exclusive; a set can be both! \(for example $$\mathbb{R}$$ and $$\empty$$\)
+> are not mutually exclusive; a set can be both! \(for example $$\mathbb{R}$$ and $$\emptyset$$ \)
 
 \[in progress...\]
 
