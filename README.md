@@ -10,10 +10,12 @@ Because we so often forget material we learn, I'm recording my understanding of 
 
   * real numbers
   * topology
-  * 
+  * limits and continuity
+  * differentiation
+  * integration
+
 
 * Complex Analysis \(start with Weselyan notes\)
-
   * complex plane
 
 
