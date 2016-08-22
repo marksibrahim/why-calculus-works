@@ -16,7 +16,7 @@ any $$n$$ that's not a perfect square \($$\neq$$ a number squared\).
 
 More abstractly, the real numbers are uniquely determined by a handful of natural **requirements** on a set:
 
-* **field** \(operations: +, x with dentity, inverses, commutiativity, associativity, and distribution\)
+* **field** \(operations: +, x with identity, inverses, commutiativity, associativity, and distribution\)
 * **order**: trichotomy \(either &gt;, &lt; or =\)
 * **completeness** \(= least upper bound property\)
   * every set with an upper bound has a _least_ upper bound.
