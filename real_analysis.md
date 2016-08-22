@@ -151,7 +151,7 @@ We can also talk about the limit of a function. In this case, we specify inputs 
 
 ### Convergence
 
-a sequence, $$a\_n$$, **converges** to some value $$p$$ if $$\lim\_{n \rightarrow \infty} a\_n = p$$.
+a sequence, $$a\_n$$, **converges** to some value $$p$$ if $$\lim_{n \rightarrow \infty} a_n = p$$.
 
 \[in progress...\]
 
