@@ -77,7 +77,7 @@ A norm is \(for $$x, y \in \mathbb{R}^n$$\):
 3. _triangle_: $$ \| x + y \| \leq \| x \| + \| y \| $$
 
 
-Common examples are euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and sup-norm \(returns the peak value across all dimesions of vector\).
+Common examples are Euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and sup-norm \(returns the peak value across all dimesions of vector; sup is the least upper bound, which isn't always in the set of interest\).
 
 > remember **vectors spaces** are sets with nice properties about addition and scalar multiplication
 
@@ -92,8 +92,6 @@ Norms in this context will later generalize to classes of functions with nice in
 > 
 > 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
-
-
 
 ### Neighborhoods
 
