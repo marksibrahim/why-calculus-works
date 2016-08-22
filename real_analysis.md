@@ -103,11 +103,11 @@ With a notion of distance \(often, we use L2 or Euclidean distance\), we can def
 
 A set is **open**, if for any point, there is a ball \(of any radius\) _entirely contained_ in the set.
 
-A set is **closed**, if the set's complement is open. 
+A set is **closed**, if the set's complement is open.
 
 > #### warning::closed and open
 > 
-> are not mutually exclusive; a set can be both!
+> are not mutually exclusive; a set can be both! \(for example $$\mathbb{R}$$ and $$\empty$$\)
 
 \[in progress...\]
 
