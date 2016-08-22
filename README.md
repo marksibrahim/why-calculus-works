@@ -1,6 +1,6 @@
 # Why Calculus Works
 
-Analysis: real, complex and measure theoretic as way to understand Calculus
+_Understanding Calculus through real analysis, complex analysis, and measure theory_
 
 Because we so often forget material we learn, I'm recording my understanding of analysis here.
 
@@ -17,6 +17,5 @@ Because we so often forget material we learn, I'm recording my understanding of 
   * complex plane
 
 
-
-Althought dry, Apostol's _Mathematical Analysis_ is a helpful reference. 
+Althought dry, Apostol's _Mathematical Analysis_ is a helpful reference.
 
