@@ -115,5 +115,9 @@ This leads to another characterization of **closed** sets: sets that contain all
 
 ### Bolzano-Weierstrass Theorem
 
+every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
+
+
+
 \[in progress...\]
 
