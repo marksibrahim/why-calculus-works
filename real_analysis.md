@@ -109,11 +109,11 @@ A set is **closed**, if the set's complement is open.
 > 
 > are not mutually exclusive; a set can be both! \(for example $$\mathbb{R}$$ and $$\emptyset$$ \)
 
-An **accumulation** \(or **limit point**\) of a set is one where every open ball centered at the limit point contains at least one other point in the set. Alternatively, we can think of a limit point as the limit of some sequence of points in the set. 
+An **accumulation** \(or **limit point**\) of a set is one where every open ball centered at the limit point contains at least one other point in the set. Alternatively, we can think of a limit point as the limit of some sequence of points in the set.
 
-This leads to another characterization of **closed** sets: sets that contain all their limit points. 
+This leads to another characterization of **closed** sets: sets that contain all their limit points.
 
-
+### Bolzano-Weierstrass Theorem
 
 \[in progress...\]
 
