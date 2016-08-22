@@ -99,7 +99,9 @@ With a notion of distance \(often, we use L2 or Euclidean distance\), we can def
 
 **B\(x; r\) **is a ball of radius r around x = set of points which are within a distance r of x \(strictly &lt; here\)
 
-> formally, $$B\(a; r\) = \{ x \in \text{set} : \|\| x - a \|\| &lt; r \}$$
+> formally, $$B(a; r) = \{ x \in set : \|\| x - a \|\| < r \}$$
+
+A set is **open** if for any point, there is a ball \(of any radius\) _entirely contained_ in the set. 
 
 \[in progress...\]
 
