@@ -99,5 +99,7 @@ With a notion of distance \(often, we use L2 or Euclidean distance\), we can def
 
 **B\(x; r\) **is a ball of radius r around x = set of points which are within a distance r of x \(strictly &lt; here\)
 
+> formally, $$B\(a; r\) = \{ x \in \text{set} : \|\| x - a \|\| &lt; r \}$$
+
 \[in progress...\]
 
