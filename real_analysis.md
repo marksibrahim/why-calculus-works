@@ -64,6 +64,8 @@ This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) dis
 
 ## Topology
 
+### Distance
+
 We can define a more general way to measure distance between two points in $$\mathbb{R}^n$$ \(or any vector space actually\), called a **norm**, denoted \|\| \* \|\|.
 
 A norm is \(for $$x, y \in \mathbb{R}^n$$\):
@@ -90,6 +92,10 @@ Norms in this context will later generalize to classes of functions with nice in
 > 
 > 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
+
+
+
+### Neighborhoods
 
 With a notion of distance \(often, we use L2 or Euclidean distance\), we can define **neighborhoods** or **open balls** around a point:
 
