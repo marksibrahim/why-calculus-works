@@ -9,8 +9,8 @@ Because we so often forget material we learn, I'm recording my understanding of 
 * Real Analysis
 
   * real numbers
-  * topology
-  * limits and continuity
+  * topology: open, compact, connected
+  * functions, limits and continuity
   * differentiation
   * integration
 
@@ -20,7 +20,6 @@ Because we so often forget material we learn, I'm recording my understanding of 
 * Complex Analysis \(start with Weselyan notes\)
   * complex plane
   * ...
-
 
 
 
