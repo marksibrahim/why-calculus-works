@@ -1,6 +1,6 @@
 # Real Analysis
 
-This will begin with a description of real numbers, completeness, compactness, and some topology--ultimately leading to integration and differentiation.
+This will begin with a description of real numbers, completeness, compactness, and some topology—ultimately leading to integration and differentiation.
 
 ## Real Numbers
 
@@ -94,8 +94,6 @@ Norms in this context will later generalize to classes of functions with nice in
 With a notion of distance \(often, we use L2 or Euclidean distance\), we can define **neighborhoods** or **open balls** around a point:
 
 **B\(x; r\) **is a ball of radius r around x = set of points which are within a distance r of x \(strictly &lt; here\)
-
-
 
 \[in progress...\]
 
