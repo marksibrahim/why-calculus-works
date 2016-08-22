@@ -66,7 +66,7 @@ This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) dis
 
 We can define a more general way to measure distance between two points in $$\mathbb{R}^n$$ \(or any vector space actually\), called a **norm**, denoted \|\| \* \|\|.
 
-A norm is \(for $$x, y in \mathbb{R}^n$$\):
+A norm is \(for $$x, y \in \mathbb{R}^n$$\):
 
 1. _positive_ \(\|\|x\|\| &gt; 0, for all x in the set\); _definite_ \|\| x \|\| = 0 if and only if x =0
 
