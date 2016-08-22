@@ -101,7 +101,7 @@ With a notion of distance \(often, we use L2 or Euclidean distance\), we can def
 
 > formally, $$B(a; r) = \{ x \in set : \|\| x - a \|\| < r \}$$
 
-A set is **open** if for any point, there is a ball \(of any radius\) _entirely contained_ in the set. 
+A set is **open**, if for any point, there is a ball \(of any radius\) _entirely contained_ in the set.
 
 \[in progress...\]
 
