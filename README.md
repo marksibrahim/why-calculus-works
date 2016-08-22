@@ -11,7 +11,7 @@ Because we so often forget material we learn, I'm recording my understanding of 
   * real numbers
   * topology: open, compact, connected
   * functions, limits and continuity
-  * differentiation
+  * differentiation: mean value, Taylor,
   * series and convergence
   * integration
 
