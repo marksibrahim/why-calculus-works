@@ -85,7 +85,7 @@ Norms in this context will later generalize to classes of functions with nice in
 > 
 > 
 > $$
-> (\sum_i \| x\_i \|^p)^{1/p}
+> \(\sum_i \| x\_i \|^p\)^{1/p}
 > $$
 > 
 > 
