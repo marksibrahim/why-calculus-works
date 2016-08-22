@@ -22,4 +22,3 @@ Because we so often forget material we learn, I'm recording my understanding of 
   * ...
 
 
-
