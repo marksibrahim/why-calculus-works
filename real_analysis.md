@@ -145,7 +145,9 @@ $$
 
 > we can substitute \| \| with any norm
 
-The idea is that if we go out far enough in the sequence, the terms are very close to the limit value L. 
+The idea is that if we go out far enough in the sequence, the terms are very close to the limit value L.
+
+If we talk about the limit of a function, limit the inputs to be within $$\delta$$ of some input to achieve an output within $$\epsilon$$ of the desired limit. 
 
 \[in progress...\]
 
