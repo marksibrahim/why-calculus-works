@@ -145,13 +145,17 @@ $$
 
 > we can substitute \| \| with any norm
 
-The idea is that if we go out far enough in the sequence, the terms are very close to the limit value L.
+The idea is that if we go out far enough in the sequence, the terms are _very close to the limit_ value L.
 
 We can also talk about the limit of a function. In this case, we specify inputs to be within $$\delta$$ of some input to achieve an output within $$\epsilon$$ of the desired limit.
 
 ### Convergence
 
-a sequence, $$a\_n$$, **converges** to some value $$p$$ if $$\lim_{n \rightarrow \infty} a_n = p$$ \(sometimes denoted $$a\_n \rightarrow p$$\).
+a sequence, $$a\_n$$, **converges** to some value $$p$$ if $$\lim_{n \rightarrow \infty} a_n = p$$ \(sometimes denoted $$a\_n \rightarrow p$$\). 
+
+a sequence, $$a\_n$$, is **cauchy** if terms in the sequence eventually become close to each other. Formally, given any $$\epsilon &gt; 0$$, $$\| a\_n - a\_m \| &lt; \epsilon$$ for all n &gt; N and m &gt; M \(for some N, M $$\in \mathbb{N}$$.
+
+
 
 \[in progress...\]
 
