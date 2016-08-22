@@ -12,11 +12,11 @@ Because we so often forget material we learn, I'm recording my understanding of 
   * topology: open, compact, connected
   * functions, limits and continuity
   * differentiation
+  * series and convergence
   * integration
 
 
-  Althought dry, Apostol's _Mathematical Analysis_ is a helpful reference.
-
+Althought dry, Apostol's _Mathematical Analysis_ is a helpful reference.
 
 * Complex Analysis \(start with Weselyan notes\)
   * complex plane
