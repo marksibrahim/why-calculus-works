@@ -87,7 +87,7 @@ Norms in this context will later generalize to classes of functions with nice in
 > 
 > 
 > $$
-> \left ( \sum_i \| x\_i \|^p \right )^{1/p}
+> \left ( \sum_i  | x_i |^p \right )^{1/p}
 > $$
 > 
 > 
@@ -124,6 +124,28 @@ every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
 ### Covers, Compactness, and Heine-Borel Theorem
 
 \[TODO: fill in from handwritten notes\]
+
+
+
+## Limits and Continuity
+
+The limit, call it L, of a sequence of real numbers $$a\_n$$, is denoted
+
+$$
+
+\lim\_{n \rightarrow \infty} a\_n = L
+
+$$
+
+This means for any number $$\epsilon &gt; 0$$, there exists $$N$$ such that for all $$n &gt; N$$, 
+
+$$
+
+\| L - a\_n \| &lt; \epsilon
+
+$$
+
+> we can substitute \| \| with any norm
 
 \[in progress...\]
 
