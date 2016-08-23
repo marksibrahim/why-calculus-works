@@ -2,7 +2,8 @@
     "plugins": [
         "mathjax",
         "bootstrap-callout",
-        "page-toc"
+        "page-toc",
+        "autocover"
     ],
     "pluginsConfig": {}
 }
