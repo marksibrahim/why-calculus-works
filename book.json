@@ -3,7 +3,8 @@
         "mathjax",
         "bootstrap-callout",
         "page-toc",
-        "autocover"
+        "autocover",
+        "simple-page-toc"
     ],
     "pluginsConfig": {}
 }
