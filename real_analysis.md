@@ -62,6 +62,8 @@ This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) dis
 > 
 > is **not** in the set of real numbers
 
+---
+
 ## Topology
 
 ### Distance
