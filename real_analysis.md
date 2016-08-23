@@ -87,12 +87,9 @@ Norms in this context will later generalize to classes of functions with nice in
 
 > #### primary::L2 and Lp norms
 > 
-> 
 > $$
-> \left ( \sum_i  | x_i |^p \right )^{1/p}
-> $$
-> 
-> 
+\left ( \sum_i  | x_i |^p \right )^{1/p}
+ $$ 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
 
 ### Neighborhoods
