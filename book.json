@@ -3,7 +3,7 @@
         "mathjax",
         "bootstrap-callout",
         "autocover",
-        "structured-toc"
+        "-structured-toc"
     ],
     "pluginsConfig": {}
 }
