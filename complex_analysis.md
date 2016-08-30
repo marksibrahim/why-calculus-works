@@ -18,7 +18,7 @@ $$z = \cos(\theta) + i \sin(\theta)$$
 
 The lenght of numbers in the complex plane, called the **modulus, **is computed as: $$\| z \| = \sqrt{ x^2 + y^2 }$$
 
-The **complex conjugate** of a number $$z$$, denoted $$\bar{z} = x - i y$$. 
+The **complex conjugate** of a number $$z$$, denoted $$\bar{z} = x - i y$$.
 
 **De Moivre's Formula**
 
@@ -27,6 +27,10 @@ Since we know** **$$(e^{i\theta})^n = e^{i n \theta}$$ and that $$e^{i \theta} =
 $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
 > $$e^{i \theta} = \cos \theta + i \sin \theta$$, because the real and imaginary parts of $$e^{i x}$$ correspond to the power series of $$\cos$$ and $$\sin$$.
+
+
+
+• The triangle inequality and field axioms still hold in $$\mathbb{C}$$
 
 ## Nth Roots
 
