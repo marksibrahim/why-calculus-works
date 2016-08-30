@@ -14,11 +14,15 @@ $$z = \cos(\theta) + i \sin(\theta)$$
   * a **principal argument **is one where $$\theta$$ is between $$\pi, -\pi$$.
 
 
+> e.g., Arg\(1 - i\) = $$\frac{- \pi}{4}$$
+
+
+
 **De Moivre's Formula: **$$(e^{i\theta})^n = e^{i n \theta}$$. In the land of sines and cosines, this becomes:
 
 $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
-> e.g., Arg\(1 - i\) = $$\frac{-\pi}{4}$$
+
 
 ## Nth Roots
 
