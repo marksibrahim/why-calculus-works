@@ -24,7 +24,11 @@ $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
 > $$e^{i \theta} = \cos \theta + i \sin \theta$$, because the real and imaginary parts of $$e^{i x}$$ correspond to the power series of $$\cos$$ and $$\sin$$.
 
+
+
 ## Nth Roots
+
+An nth root of a complex number, $$w$$, is a number $$z$ such that $$z^n = w$$.
 
 # Complex Functions
 
