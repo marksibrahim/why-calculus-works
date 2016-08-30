@@ -14,6 +14,12 @@ We can express a complex number $$z$$ \(often z, w denoted complex numbers\), us
 
 > e.g., Arg\(1 - i\) = $$\frac{-\pi}{4}$$
 
+## Polar Coordinates
+
+We can express complex numbers \(denoted usually as z or w\), using polar coordinates: a length and angle. Often we write $$z$$ as 
+
+$$z = \cos\(\theta\) + i \sin\(\theta\)$$
+
 * a **principal argument **is one where $$\theta$$ is between $$\pi, -\pi$$.
 
 **De Moivre's Formula: **$$e^{i\theta}^n = e^{in\theta}$$. In the land of sines and cosines, this becomes:
