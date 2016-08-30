@@ -26,7 +26,13 @@ $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
 ## Nth Roots
 
-An nth root of a complex number, $$w$$, is a number $$z$$ such that $$z^n = w$$. An important type of nth root are the **nth roots of unity**, which are numbers whose nth power is 1. It turns out there are n such numbers 
+An nth root of a complex number, $$w$$, is a number $$z$$ such that $$z^n = w$$. An important type of nth root are the **nth roots of unity**, which are numbers whose nth power is 1.
+
+> #### primary::roots unity
+> 
+> There are n numbers satifying $$z^n = 1$$. Why?
+> 
+> Let's think in polar coordinates: $$r e^{i n \theta} = 1 $$. Then r =1 and $$n \theta = 2 \pi k $$ for k $$\in \mathbb{Z}$$. We then have $$\theta = 0, 2 \pi \/ n, 4 \pi \/ n, \dots$$
 
 # Complex Functions
 
