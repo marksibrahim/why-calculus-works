@@ -18,6 +18,8 @@ $$z = \cos(\theta) + i \sin(\theta)$$
 
 $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
+> e.g., Arg\(1 - i\) = $$\frac{-\pi}{4}$$
+
 ## Nth Roots
 
 # Complex Functions
