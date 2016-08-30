@@ -1,8 +1,16 @@
 # Complex Analysis
 
-References:
+Main Reference:
+
+_Complex Analysis_, by Stein and Shakarchi
+
+Other references:
 
 _A First Course In Complex Analysis_, by Beck, Marchesi, Pixton, and Sabalka
+
+_Functions of One Complex Variable_, by John Conway \(used in Course\)
+
+
 
 # Complex Plane
 
