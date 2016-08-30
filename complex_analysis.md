@@ -1,17 +1,5 @@
 # Complex Analysis
 
-Main Reference:
-
-_Complex Analysis_, by Stein and Shakarchi
-
-Other references:
-
-_A First Course In Complex Analysis_, by Beck, Marchesi, Pixton, and Sabalka
-
-_Functions of One Complex Variable_, by John Conway \(used in Course\)
-
-
-
 # Complex Plane
 
 Why Complex Numbers? As Bombelli pondered the solutions to $$x^3 = 5x + 3$$, he discovered it's useful to consider not just real number, but complex numbers too. The set of complex numbers, $$\mathbb{C}$$, is called the **Complex Plane**. We can think of the complex plane, as a set of points $$x + i y$$ where $$x, y \in \mathbb{R}$$. In other words, we can think of complex numbers as numbers in $$\mathbb{R}^2$$.
@@ -59,4 +47,16 @@ We can think of other nth roots as roots of unity corrected for length.
 ## Sequences of Complex Numbers
 
 \[in progress\]
+
+
+
+## Text Reference
+
+_Complex Analysis_, by Stein and Shakarchi
+
+## Other references
+
+_A First Course In Complex Analysis_, by Beck, Marchesi, Pixton, and Sabalka
+
+_Functions of One Complex Variable_, by John Conway \(used in Course\)
 
