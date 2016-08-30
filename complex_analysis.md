@@ -2,7 +2,7 @@
 
 # Complex Plane
 
-Why Complex Numbers? As Bombelli pondered the solutions to $$x^3 = 5x + 3$$, he discovered it's useful to consider not just real number, but complex numbers too. The set of complex numbers, $$\mathbb{C}$$, is called the **Complex Plane**. We can think of the complex plane, as a set of points $$x + i y$$ where
+Why Complex Numbers? As Bombelli pondered the solutions to $$x^3 = 5x + 3$$, he discovered it's useful to consider not just real number, but complex numbers too. The set of complex numbers, $$\mathbb{C}$$, is called the **Complex Plane**. We can think of the complex plane, as a set of points $$x + i y$$ where $$x, y \in \mathbb{R}$$. 
 
 $$x, y \in \mathbb{R}$$—in other words, as numbers in $$\mathbb{R}^2$$.
 
@@ -14,15 +14,11 @@ We can express a complex number $$z$$ \(often z, w denoted complex numbers\), us
 
 > e.g., Arg\(1 - i\) = $$\frac{-\pi}{4}$$
 
-
-
 * a **principal argument **is one where $$\theta$$ is between $$\pi, -\pi$$.
-
-
 
 **De Moivre's Formula: **$$e^{i\theta}^n = e^{in\theta}$$. In the land of sines and cosines, this becomes:
 
-$$ \cos\(\theta\) + i sin\(\theta\) = \cos\(n \theta\) + i \sin\(n \theta\)$$
+$$\cos\(\theta\) + i sin\(\theta\) = \cos\(n \theta\) + i \sin\(n \theta\)$$
 
 ## Nth Roots
 
