@@ -16,13 +16,11 @@ $$z = \cos(\theta) + i \sin(\theta)$$
 
 > e.g., Arg\(1 - i\) = $$\frac{- \pi}{4}$$
 
-
-
 **De Moivre's Formula: **$$(e^{i\theta})^n = e^{i n \theta}$$. In the land of sines and cosines, this becomes:
 
 $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
-
+> why?
 
 ## Nth Roots
 
