@@ -18,11 +18,11 @@ $$z = \cos(\theta) + i \sin(\theta)$$
 
 **De Moivre's Formula**
 
-Since we know** **$$(e^{i\theta})^n = e^{i n \theta}$$ and that $$e^{i \theta} = cos(\theta) + i \sin(\theta)$$,  De Moivre's Formula is the observation that: 
+Since we know** **$$(e^{i\theta})^n = e^{i n \theta}$$ and that $$e^{i \theta} = cos(\theta) + i \sin(\theta)$$,  De Moivre's Formula is the observation that:
 
 $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
-
+> $$e^{i \theta} = \cos \theta + i \sin \theta$$, because the real and imaginary parts of $$e^{i x}$$ correspond to the power series of $$\cos$$ and $$\sin$$.
 
 ## Nth Roots
 
