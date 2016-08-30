@@ -28,9 +28,7 @@ $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
 > $$e^{i \theta} = \cos \theta + i \sin \theta$$, because the real and imaginary parts of $$e^{i x}$$ correspond to the power series of $$\cos$$ and $$\sin$$.
 
-
-
-• The triangle inequality and field axioms still hold in $$\mathbb{C}$$
+The triangle inequality and field axioms still hold in $$\mathbb{C}$$
 
 ## Nth Roots
 
