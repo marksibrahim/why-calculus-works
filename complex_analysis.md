@@ -18,7 +18,7 @@ $$z = \cos(\theta) + i \sin(\theta)$$
 
 **De Moivre's Formula**
 
-Since we know** **$$(e^{i\theta})^n = e^{i n \theta}$$ and that $$e^{i \theta} = cos(\theta) + i \sin(\theta)$$,  De Moivre's Formula is the observation that:
+Since we know** **$$(e^{i\theta})^n = e^{i n \theta}$$ and that $$e^{i \theta} = cos(\theta) + i \sin(\theta)$$ \(Euler's Formula\),  De Moivre's Formula is the observation that:
 
 $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
@@ -26,7 +26,7 @@ $$\cos(\theta) + i sin(\theta) = \cos(n \theta) + i \sin(n \theta)$$
 
 ## Nth Roots
 
-An nth root of a complex number, $$w$$, is a number $$z$$ such that $$z^n = w$$.
+An nth root of a complex number, $$w$$, is a number $$z$$ such that $$z^n = w$$. An important type of nth root are the **nth roots of unity**, which are numbers whose nth power is 1. It turns out there are n such numbers 
 
 # Complex Functions
 
