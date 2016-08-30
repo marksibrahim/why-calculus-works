@@ -32,7 +32,9 @@ An nth root of a complex number, $$w$$, is a number $$z$$ such that $$z^n = w$$.
 > 
 > There are n numbers satifying $$z^n = 1$$. Why?
 > 
-> Let's think in polar coordinates: $$r e^{i n \theta} = 1 $$. Then r =1 and $$n \theta = 2 \pi k $$ for k $$\in \mathbb{Z}$$. We then have $$\theta = 0, 2 \pi \/ n, 4 \pi \/ n, \dots$$
+> Let's think in polar coordinates: $$r e^{i n \theta} = 1 $$. Then r =1 and $$n \theta = 2 \pi k $$ for k $$\in \mathbb{Z}$$. We then have $$\theta = 0, 2 \pi / n, 4 \pi / n, \dots$$ there are n unique angles!
+
+
 
 # Complex Functions
 
