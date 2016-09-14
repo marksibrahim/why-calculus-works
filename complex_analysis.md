@@ -56,7 +56,11 @@ Nice Properites:
 
 We can also think of a complex function as a function in $$\mathbb{R}^2$$ where f = u\(x, y\) + i v\(x, y\), with v, u real-valued function on the real plane.
 
-The **Jacobian **of a function f\(x, y\) is matrix of partial derivatives. It turns out a holomorphic function at a point satisfies the **Cauchy Riemann Equations**:
+The **Jacobian **of a function f\(x, y\) is matrix of partial derivatives. 
+
+### Cauchy Riemann Condition
+
+It turns out a holomorphic function at a point satisfies the **Cauchy Riemann Equations**:
 
 
 $$
@@ -77,8 +81,6 @@ $$
 Furthermore, if u and v have continuous derivatives \(continuously differentiable\) and the Cauchy Riemann Equations hold then f is **holomorphic** \(in the open set on which f is defined\).
 
 ### Power Series
-
-
 
 \[in progress\]
 
