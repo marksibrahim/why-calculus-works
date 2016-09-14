@@ -48,19 +48,37 @@ A complex function is continuous in the complex plane in an analogous way as it 
 
 A compelx function on an open set in $$\mathbb{C}$$ is **holomorphic** \(**analytic**\) at a point z\_0 if the dervative at z\_0 exists. Note the key difference between a real and compelx derivative is that you can approach a complex point z\_0 from infinitely many directions, not just left or right—it's a much stronger condition.
 
-
-
 Nice Properites:
 
-• sum\/product of holomorphic functions is holomorphic
+• sum\/product of holomorphic functions is holomorphic
 
 • quotient, f\/g, of holomorphic functions such that g\(z\_0\) ≠ 0, is also holomorphic
 
+We can also think of a complex function as a function in $$\mathbb{R}^2$$ where f = u\(x, y\) + i v\(x, y\), with v, u real-valued function on the real plane.
+
+The **Jacobian **of a function f\(x, y\) is matrix of partial derivatives. It turns out a holomorphic function at a point satisfies the **Cauchy Riemann Equations**: 
 
 
-We can also think of a complex function as a function in $$\mathbb{R}^2$$ where f = u\(x, y\) + i v\(x, y\), with v, u real-valued function on the real plane. 
+$$
+\frac{\partial u}{\partial x} = \frac{\partial v }{\partial y}
+$$
 
-The **Jacobian **of a function f\(x, y\) is matrix of partial derivatives. 
+
+and
+
+
+$$
+\frac{\partial u}{\partial y} = - \frac{\partial v }{\partial x}
+$$
+
+
+> use limits to show this is true with the realization the derivative should be the same regardless of the direction you approach the point with.
+
+
+
+
+
+\[in progress\]
 
 ## Text Reference
 
