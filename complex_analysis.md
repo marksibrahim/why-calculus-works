@@ -44,9 +44,11 @@ We can think of other nth roots as roots of unity corrected for length.
 
 # Complex Functions
 
-## Sequences of Complex Numbers
+A complex function is continuous in the complex plane in an analogous way as it is in the reals. Also note, the Extreme Value Theorem holds in the complex plane as it does in the reals: a continuous function on a compact set attains its min\/max. 
 
-\[in progress\]
+A compelx function on an open set in $$\mathbb{C}$$ is **holomorphic** \(**analytic**\) at a point z\_0 if the dervative at z\_0 exists. Note the key difference between a real and compelx derivative is that you can approach a complex point z\_0 from infinitely many directions, not just left or right—it's a much stronger condition. 
+
+
 
 
 
