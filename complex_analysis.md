@@ -46,7 +46,7 @@ We can think of other nth roots as roots of unity corrected for length.
 
 A complex function is continuous in the complex plane in an analogous way as it is in the reals. Also note, the Extreme Value Theorem holds in the complex plane as it does in the reals: a continuous function on a compact set attains its min\/max.
 
-A compelx function on an open set in $$\mathbb{C}$$ is **holomorphic** \(**analytic**\) at a point z\_0 if the dervative at z\_0 exists. Note the key difference between a real and compelx derivative is that you can approach a complex point z\_0 from infinitely many directions, not just left or right—it's a much stronger condition.
+A compelx function on an open set in $$\mathbb{C}$$ is **holomorphic** \(**analytic **or **differentiable**\) at a point z\_0 if the dervative at z\_0 exists. Note the key difference between a real and compelx derivative is that you can approach a complex point z\_0 from infinitely many directions, not just left or right—it's a much stronger condition.
 
 Nice Properites:
 
@@ -74,11 +74,9 @@ $$
 
 > use limits to show this is true with the realization the derivative should be the same regardless of the direction you approach the point with.
 
+Furthermore, if u and v have continuous derivatives \(continuously differentiable\) and the Cauchy Riemann Equations hold then f is **holomorphic** \(in the open set on which f is defined\).
 
-
-Furthermore, if u and v have continuous derivatives \(continuously differentiable\) and the Cauchy Riemann Equations hold then f is **holomorphic** \(in the open set on which f is defined\). 
-
-
+### Power Series
 
 
 
