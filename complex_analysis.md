@@ -44,13 +44,23 @@ We can think of other nth roots as roots of unity corrected for length.
 
 # Complex Functions
 
-A complex function is continuous in the complex plane in an analogous way as it is in the reals. Also note, the Extreme Value Theorem holds in the complex plane as it does in the reals: a continuous function on a compact set attains its min\/max. 
+A complex function is continuous in the complex plane in an analogous way as it is in the reals. Also note, the Extreme Value Theorem holds in the complex plane as it does in the reals: a continuous function on a compact set attains its min\/max.
 
-A compelx function on an open set in $$\mathbb{C}$$ is **holomorphic** \(**analytic**\) at a point z\_0 if the dervative at z\_0 exists. Note the key difference between a real and compelx derivative is that you can approach a complex point z\_0 from infinitely many directions, not just left or right—it's a much stronger condition. 
-
-
+A compelx function on an open set in $$\mathbb{C}$$ is **holomorphic** \(**analytic**\) at a point z\_0 if the dervative at z\_0 exists. Note the key difference between a real and compelx derivative is that you can approach a complex point z\_0 from infinitely many directions, not just left or right—it's a much stronger condition.
 
 
+
+Nice Properites:
+
+• sum\/product of holomorphic functions is holomorphic
+
+• quotient, f\/g, of holomorphic functions such that g\(z\_0\) ≠ 0, is also holomorphic
+
+
+
+We can also think of a complex function as a function in $$\mathbb{R}^2$$ where f = u\(x, y\) + i v\(x, y\), with v, u real-valued function on the real plane. 
+
+The **Jacobian **of a function f\(x, y\) is matrix of partial derivatives. 
 
 ## Text Reference
 
