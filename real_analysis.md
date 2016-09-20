@@ -85,11 +85,7 @@ A **onto **\(or surjective\) function hits all outputs with some input.
 
 ## Topology
 
-A **metric space **is a set M with a distinace metric, d: MxM -&gt; \[0, ∞\) such that
 
-1. symmetric: \_d\(a, b\) = d\(b, a\) for a, b in M
-2. _definite_: d\(a, b\) = 0 if and only if a = b
-3. triangle: \_d\(a, c\) ≤ d\(a, b\) + d\(b, c\)
 
 ### Distance
 
@@ -119,6 +115,14 @@ Norms in this context will later generalize to classes of functions with nice in
 > 
 > 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
+
+
+
+More generall we can talk about metric spaces, rather than just $$\mathbb{R}Y^n$$ or a vector space. A **metric space **is a set M with a distinace metric, d: MxM -&gt; \[0, ∞\) such that
+
+1. symmetric: \_d\(a, b\) = d\(b, a\) for a, b in M
+2. _definite_: d\(a, b\) = 0 if and only if a = b
+3. triangle: \_d\(a, c\) ≤ d\(a, b\) + d\(b, c\)
 
 ### Neighborhoods
 
@@ -150,10 +154,18 @@ This leads to another characterization of **closed** sets: sets that contain all
 
 #### Unions and Intersections of Open and Closed Sets
 
-* | U Open Balls is Open |  |
-  | --- | --- |
-  |  |  |
+| U Open is Open | Intersection of Closed is Closed |
+| --- | --- |
+| For any x in U open, x is contained in some open set. So there is B\(x, r\) entirely contained in some open set, hence contained in the U open sets. | similar lidea to open sets |
 
+
+> in pictures, I think of the union of a bunch of open intervals, which is going to be open. For closed, I think about the intersection of a bunch of closed intervals \[0, 1\], \[1\/4, 3\/4\], ... this will be closed, because worst case, it'll contain a single point. While, not rigorous, this helps me imagine what's going on.
+
+
+
+### Compactness
+
+A metric space is compact 
 
 ### Bolzano-Weierstrass Theorem
 
