@@ -85,8 +85,6 @@ A **onto **\(or surjective\) function hits all outputs with some input.
 
 ## Topology
 
-
-
 ### Distance
 
 We can define a more general way to measure distance between two points in $$\mathbb{R}^n$$ \(or any vector space\), called a **norm**, denoted \|\| \* \|\|.
@@ -115,8 +113,6 @@ Norms in this context will later generalize to classes of functions with nice in
 > 
 > 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
-
-
 
 More generall we can talk about metric spaces, rather than just $$\mathbb{R}Y^n$$ or a vector space. A **metric space **is a set M with a distinace metric, d: MxM -&gt; \[0, ∞\) such that
 
@@ -158,14 +154,11 @@ This leads to another characterization of **closed** sets: sets that contain all
 | --- | --- |
 | For any x in U open, x is contained in some open set. So there is B\(x, r\) entirely contained in some open set, hence contained in the U open sets. | similar lidea to open sets |
 
-
 > in pictures, I think of the union of a bunch of open intervals, which is going to be open. For closed, I think about the intersection of a bunch of closed intervals \[0, 1\], \[1\/4, 3\/4\], ... this will be closed, because worst case, it'll contain a single point. While, not rigorous, this helps me imagine what's going on.
-
-
 
 ### Compactness
 
-A metric space is compact 
+A metric space is **compact** if every open cover has a finite subcover. An **open cover** is a union of open sets that contains the original set. 
 
 ### Bolzano-Weierstrass Theorem
 
