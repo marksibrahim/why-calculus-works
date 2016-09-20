@@ -168,9 +168,11 @@ It turns out there's a relationship between compactness and sequences in a space
 
 A **compact **metric space is always **complete**, meaning every Cauchy sequence converges.
 
-> **idea**: Given any Cauchy sequence, a\_n, we can always find a convergent subequence \(by sequential compactness\). If a subsequence converges and the sequence is Cauchy, then the terms of the sequence must be arbitrarliy close to the convergent subsequence, hence converge.
+> **idea**: Given any Cauchy sequence, a\_n, we can always find a convergent subequence \(by sequential compactness\). Since the sequence is Cauchy, the terms must be arbitrarily close to the convergent subsequence, hence converge.
 
+### Cantor's Intersection Theorem
 
+In a **compact space** X, if closed, nonempty sets C1, C2, ... are nested: C1 $$\subseteq$$ C2
 
 ### Bolzano-Weierstrass Theorem
 
