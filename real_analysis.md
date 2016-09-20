@@ -172,7 +172,9 @@ A **compact **metric space is always **complete**, meaning every Cauchy sequence
 
 ### Cantor's Intersection Theorem
 
-In a **compact space** X, if closed, nonempty sets C1, C2, ... are nested: C1 $$\subseteq$$ C2
+In a **compact space** X, if closed, nonempty sets C1, C2, ... are nested: C1 $$\supseteq$$ C2 $$\supseteq$$ C3 ... then
+
+
 
 ### Bolzano-Weierstrass Theorem
 
