@@ -190,13 +190,19 @@ $$
 > 
 > 4. Then $$C\_i = X \setminus O\_i = \emptyset$$, a contradiction!
 
-This will be used to show two famous theorems: Bolzano-Weierstrass and Heine-Borel.
+This will be used to show two famous theorems: Bolzano-Weierstrass and Heine-Borel. 
+
+> #### warning:: the set of reals
+> 
+> is **not **compact
 
 ### Bolzano-Weierstrass Theorem
 
-every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
+Every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
 
 > **bounded** means contained in a ball of finite radius
+
+Why is this true? We'll chop our bounds in half and use the nested intervals theorem. 
 
 \[TODO: fill in proof and intuition from handwritten notes\]
 
