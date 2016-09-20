@@ -166,6 +166,12 @@ It turns out there's a relationship between compactness and sequences in a space
 > 
 > sequentially compact and compact are **not** equivalent
 
+A **compact **metric space is always **complete**, meaning every Cauchy sequence converges.
+
+> **idea**: Given any Cauchy sequence, a\_n, we can always find a convergent subequence \(by sequential compactness\). If a subsequence converges and the sequence is Cauchy, then the terms of the sequence must be arbitrarliy close to the convergent subsequence, hence converge.
+
+
+
 ### Bolzano-Weierstrass Theorem
 
 every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
