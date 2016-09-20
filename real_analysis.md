@@ -91,6 +91,7 @@ A **metric space **is a set M with a distinace metric, d: MxM -&gt; \[0, ∞\) s
 2. _definite_: d\(a, b\) = 0 if and only if a = b
 3. triangle: \_d\(a, c\) ≤ d\(a, b\) + d\(b, c\)
 
+
 ### Distance
 
 We can define a more general way to measure distance between two points in $$\mathbb{R}^n$$ \(or any vector space\), called a **norm**, denoted \|\| \* \|\|.
@@ -130,6 +131,13 @@ With a notion of distance \(often, we use L2 or Euclidean distance\), we can def
 
 A set is **open**, if for any point, there is an open ball \(of any radius\) _entirely contained_ in the set.
 
+> It turns out even open set is the union of open balls \(potentially infinitely many\). Why?
+> 
+> 1. for each x in the Open set, there is a radius r such that B\(x, r\) ≤ Open set
+> 
+> 2. the union of all these B\(x, r\) for each x in the open set, cover the open set
+> 3. but also, each B\(x, r\) is contained in the open set ==&gt; U B\(x,r\) = Open set!
+
 A set is **closed**, if the set's complement is open.
 
 > #### warning::closed and open
@@ -139,6 +147,16 @@ A set is **closed**, if the set's complement is open.
 An **accumulation** \(or **limit point**\) of a set is one where every open ball centered at the limit point contains at least one other point in the set. Alternatively, we can think of a limit point as the limit of some sequence of points in the set.
 
 This leads to another characterization of **closed** sets: sets that contain all their limit points.
+
+
+
+#### Unions and Intersections of Open and Closed Sets
+
+* | U Open Balls is Open |  |
+  | --- | --- |
+  |  |  |
+
+
 
 ### Bolzano-Weierstrass Theorem
 
