@@ -20,7 +20,8 @@ More abstractly, the real numbers are uniquely determined by a handful of natura
 * **order**: trichotomy \(either &gt;, &lt; or =\)
 * **completeness** \(= least upper bound property\)
   * every set with an upper bound has a _least_ upper bound.
-  * e.g., \(0, 1\) has 1 as an upper bound, but 1 is not in the set \(0, 1\)
+    * e.g., \(0, 1\) has 1 as an upper bound, but 1 is not in the set \(0, 1\)
+
 
 
 A nice consequence of this is the **triangle inequality: **$$ \| x + y \| \leq \|x\| + \|y\|$$ for any $$x, y \in \mathbb{R}$$.
@@ -36,6 +37,10 @@ $$
 |\vec{u}| | \vec{v} |
 $$
 
+
+why?
+
+> idea: use u • v = \|\| u \|\| \|\| v \|\| cos \(angle between them\)
 
 > #### primary::Vectors
 > 
@@ -87,9 +92,12 @@ Norms in this context will later generalize to classes of functions with nice in
 
 > #### primary::L2 and Lp norms
 > 
+> 
 > $$
-\left ( \sum_i  | x_i |^p \right )^{1/p}
- $$ 
+> \left ( \sum_i  | x_i |^p \right )^{1/p}
+> $$
+> 
+> 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
 
 ### Neighborhoods
@@ -125,8 +133,6 @@ every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
 \[TODO: fill in from handwritten notes\]
 
 ---
-
-
 
 ## Limits and Continuity
 
