@@ -160,6 +160,12 @@ This leads to another characterization of **closed** sets: sets that contain all
 
 A metric space is **compact** if every open cover has a finite subcover. An **open cover** is a union of open sets that contains the original set. 
 
+It turns out there's a relationship between compactness and sequences in a space. If every sequence in space has a convergent subsequence, we say the the space is **sequentially compact**. It turns out **sequentially compact ** and **compact **are equivalent!
+
+
+
+
+
 ### Bolzano-Weierstrass Theorem
 
 every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
