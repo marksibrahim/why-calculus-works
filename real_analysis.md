@@ -136,7 +136,7 @@ A set is **open**, if for any point, there is an open ball \(of any radius\) _en
 > 
 > 2. the union of all these B\(x, r\) \(for each x in the open set\) covers the open set
 > 
-> 3. but also, each B\(x, r\) is contained in the open set ==&gt; U B\(x,r\) = Open set!
+> 3. but each B\(x, r\) is contained in the open set ==&gt; U B\(x,r\) = Open set!
 
 A set is **closed**, if the set's complement is open.
 
