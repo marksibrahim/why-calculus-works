@@ -160,7 +160,7 @@ This leads to another characterization of **closed** sets: sets that contain all
 
 A metric space is **compact** if every open cover has a finite subcover. An **open cover** is a union of open sets that contains the original set.
 
-It turns out there's a relationship between compactness and sequences in a space. If every sequence in space has a convergent subsequence, we say the the space is **sequentially compact**. It turns out **sequentially compact ** and **compact **are equivalent in every metric space!
+It turns out there's a relationship between compactness and sequences in a space. If every sequence in space has a convergent subsequence, we say the the space is **sequentially compact**. It turns out **sequentially compact ** and **compact **are equivalent in any metric space!
 
 > #### warning:: In Topological Spaces
 > 
@@ -206,9 +206,9 @@ We can also talk about the limit of a function. In this case, we specify inputs 
 
 ### Convergence
 
-a sequence, $$a\_n$$, **converges** to some value $$p$$ if $$\lim_{n \rightarrow \infty} a_n = p$$ \(sometimes denoted $$a\_n \rightarrow p$$\).
+A sequence, $$a\_n$$, **converges** to some value $$p$$ if $$\lim_{n \rightarrow \infty} a_n = p$$ \(sometimes denoted $$a\_n \rightarrow p$$\).
 
-a sequence, $$a\_n$$, is **cauchy** if terms in the sequence eventually become close to each other. Formally, given any $$\epsilon > 0$$, $$| a_n - a_m | <  \epsilon$$ for all n &gt; N and m &gt; M \(for some N, M $$\in \mathbb{N}$$\).
+A sequence, $$a\_n$$, is **cauchy** if terms in the sequence eventually become close to each other. Formally, given any $$\epsilon > 0$$, $$| a_n - a_m | <  \epsilon$$ for all n &gt; N and m &gt; M \(for some N, M $$\in \mathbb{N}$$\).
 
 \[in progress...\]
 
