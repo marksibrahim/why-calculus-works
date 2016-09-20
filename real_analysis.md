@@ -38,9 +38,7 @@ $$
 $$
 
 
-why?
-
-> idea: use u • v = \|\| u \|\| \|\| v \|\| cos \(angle between them\)
+why? The idea is to use u • v = \|\| u \|\| \|\| v \|\| cos \(angle between them\). 
 
 > #### primary::Vectors
 > 
@@ -68,6 +66,24 @@ This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) dis
 > is **not** in the set of real numbers
 
 ---
+
+**Fundamental Theorem of Arithemetic**: every integer can be factor into primes
+
+
+
+### Set Theory
+
+A set of ordered pairs if called a **relation**. 
+
+A **one-to-one** \(or injective\) function sends inputs to distinct outputs
+
+> f\(a\) = f\(b\) implies a = b
+
+A **onto **\(or surjective\) function hits all outputs with some input.
+
+**DeMorgan's Law**: $$\(A \cap B\)^c = A^c \cup B^c$$
+
+> idea: draw a picture \(venn diagram\) to see it's true.
 
 ## Topology
 
