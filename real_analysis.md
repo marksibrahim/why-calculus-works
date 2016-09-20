@@ -87,13 +87,13 @@ A **onto **\(or surjective\) function hits all outputs with some input.
 
 A **metric space **is a set M with a distinace metric, d: MxM -&gt; \[0, ∞\) such that
 
-1. _symmetric: _d\(a, b\) = d\(b, a\) for a, b in M
+1. symmetric: \_d\(a, b\) = d\(b, a\) for a, b in M
 2. _definite_: d\(a, b\) = 0 if and only if a = b
-3. _triangle: _d\(a, c\) ≤ d\(a, b\) + d\(b, c\)
+3. triangle: \_d\(a, c\) ≤ d\(a, b\) + d\(b, c\)
 
 ### Distance
 
-We can define a more general way to measure distance between two points in $$\mathbb{R}^n$$ \(or any vector space actually\), called a **norm**, denoted \|\| \* \|\|.
+We can define a more general way to measure distance between two points in $$\mathbb{R}^n$$ \(or any vector space\), called a **norm**, denoted \|\| \* \|\|.
 
 A norm is \(for $$x, y \in \mathbb{R}^n$$\):
 
