@@ -158,7 +158,7 @@ This leads to another characterization of **closed** sets: sets that contain all
 
 ### Compactness
 
-A metric space is **compact** if every open cover has a finite subcover. An **open cover** is a union of open sets that contains the original set.
+A metric space is **compact** if every open cover has a finite subcover. An **open cover** is a union of open sets containing the metric space.
 
 It turns out there's a relationship between compactness and sequences in a space. If every sequence in space has a convergent subsequence, we say the the space is **sequentially compact**. It turns out **sequentially compact ** and **compact **are equivalent in any metric space!
 
@@ -180,16 +180,18 @@ $$
 $$
 
 
-> **Idea: **suppose $$\cap C\_n = \emptyset$$, then 
+> **Idea: **suppose $$\cap C\_n = \emptyset$$, then
 > 
 > 1. Let $$O\_n = X \setminus C\_n$$ for each n
 > 2. Then U On is an open cover for X =&gt; there is a finite subcover
 >   1. say $$\cap\_{n=1}^k O\_n$$
 > 
 > 3. Yet, because C\_n are nested, only a single O\_i covers X
+> 
 > 4. Then $$C\_i = X \setminus O\_i = \emptyset$$, a contradiction!
 
 This will be used to show two famous theorems: Bolzano-Weierstrass and Heine-Borel.
+
 ### Bolzano-Weierstrass Theorem
 
 every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
