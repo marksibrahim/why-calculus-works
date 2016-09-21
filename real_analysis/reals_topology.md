@@ -213,10 +213,32 @@ Why is this true? We'll chop our bounds in half and use the nested intervals the
 
 A set K in $$\mathbb{R}$$ is **compact &lt;====&gt; **it's **closed **and **bounded**
 
-> idea: 
+> #### primary::Tool
+> 
+> **a closed subset, C, of a compact, K, set is compact**
+> 
+> 1. Let U O be an open cover of C
+> 2. U O U {K \ C} is open and covers K
+> 3. there is a finite subcover of K, hence one for C
+
+With this tool we can now show why Heine-Borel is true
+
+> idea:
 > 
 > 1. **=&gt; Bounded**: suppose not
->   1. there exists some a&lt;sub&gt;n&lt;\/sub&gt;
+>   1. there exists some unbounded sequence, an
+>   2. every subsequence is also unbounded, contradicting Bolzano-Weierstrass
+> 
+> 2. **=&gt; closed**: idea show K already contains its boundary
+>   1. choose x in K's closure
+>   2. there is a sequence xn in K converging to x
+>   3. xn is Cauchy, implying xn must converge to a point in K
+>     1. hence x is in K
+> 
+> 
+> 3. **&lt;= Compact**: 
+>   1. K is inside some interval \[-M, M\], because it's bounded
+>   2.
 
 \[in progress\]
 
