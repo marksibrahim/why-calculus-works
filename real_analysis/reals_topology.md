@@ -118,11 +118,13 @@ More generall we can talk about metric spaces, rather than just $$\mathbb{R}^n$$
 2. _definite_: d\(a, b\) = 0 if and only if a = b
 3. triangle: \_d\(a, c\) ≤ d\(a, b\) + d\(b, c\)
 
-Many of the topological properites we'll explore applies to general metric spaces: all you need is a set and a reasonable way to measure distance. 
+Many of the topological properites we'll explore applies to general metric spaces: all you need is a set and a reasonable way to measure distance.
 
 > #### info::topological space
 > 
-> is a set and a collection of subsets with special properities about unions and intersections. The open sets of a metric space always form a topological space!
+> is a set M and a collection of subsets, S, that contains the empty set & M, is closed under union, and finite intersections. 
+> 
+> e.g., the open sets of a metric space always form a topological space!
 
 ### Neighborhoods
 
