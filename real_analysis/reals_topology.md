@@ -38,7 +38,7 @@ $$
 $$
 
 
-why? The idea is to use $$\vec{u} \dot \vec{v} = \abs{u} \abs{v} \cos($$ angel between them.
+why? The idea is to use $\vec{u} \dot \vec{v} = \abs{u} \abs{v} \cos($ angel between them.
 
 > #### primary::Vector
 > a vector is a point in $$\mathbb{R}^n$$
