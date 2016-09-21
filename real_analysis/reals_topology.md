@@ -243,10 +243,10 @@ With this tool we can now show why Heine-Borel is true
 > 
 > 
 > 
-> 
 > 1. **&lt;= Compact**:
 >   1. K is inside some interval \[-M, M\], because it's bounded
->   2. something
+>   2. Since K is closed and \[-M, M\] is compact, K is closed
+>     1. by our Tool above!
 
 \[in progress\]
 
