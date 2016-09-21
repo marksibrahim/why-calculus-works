@@ -40,8 +40,7 @@ $$
 
 why? The idea is to use u • v = \|\| u \|\| \|\| v \|\| cos \(angle between them\).
 
-> #### primary::Vectors
-> 
+> #### primary::Vector
 > a vector is a point in $$\mathbb{R}^n$$
 > 
 > * it looks like $$(x_1, x_2, x_3)$$ where each $$x$$ is in $$\mathbb{R}$$
@@ -62,7 +61,6 @@ Nevertheless, the set of rationals is countable. Make a table:
 This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) discussing infinity and the reals.
 
 > #### warning::Infinity + or -
-> 
 > is **not** in the set of real numbers
 
 ---
@@ -104,12 +102,10 @@ Common examples are Euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and su
 
 Norms in this context will later generalize to classes of functions with nice integration properties in measure theory.
 
-> #### primary::L2 and Lp norms
-> 
-> 
+> #### primary::L2 and Lp norms 
 > $$
 > \left ( \sum_i  | x_i |^p \right )^{1/p}
-> $$
+> $
 > 
 > 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
@@ -141,7 +137,6 @@ A set is **open**, if for any point, there is an open ball \(of any radius\) _en
 A set is **closed**, if the set's complement is open.
 
 > #### warning::closed and open
-> 
 > are not mutually exclusive; a set can be both! \(for example $$\mathbb{R}$$ and $$\emptyset$$ \)
 
 An **accumulation** \(or **limit point**\) of a set is one where every open ball centered at the limit point contains at least one other point in the set. Alternatively, we can think of a limit point as the limit of some sequence of points in the set.
@@ -163,7 +158,6 @@ A metric space is **compact** if every open cover has a finite subcover. An **op
 It turns out there's a relationship between compactness and sequences in a space. If every sequence in space has a convergent subsequence, we say the the space is **sequentially compact**. It turns out **sequentially compact ** and **compact **are equivalent in any metric space!
 
 > #### warning:: In Topological Spaces
-> 
 > sequentially compact and compact are **not** equivalent
 
 A **compact **metric space is always **complete**, meaning every Cauchy sequence converges.
@@ -181,19 +175,15 @@ $$
 
 
 > **Idea: **suppose $$\cap C\_n = \emptyset$$, then
-> 
 > 1. Let $$O\_n = X \setminus C\_n$$ for each n
 > 2. Then U On is an open cover for X =&gt; there is a finite subcover
 >   1. say $$\cap\_{n=1}^k O\_n$$
-> 
 > 3. Yet, because C\_n are nested, only a single O\_i covers X
-> 
 > 4. Then $$C\_i = X \setminus O\_i = \emptyset$$, a contradiction!
 
 This will be used to show two famous theorems: Bolzano-Weierstrass and Heine-Borel.
 
 > #### warning:: the set of reals
-> 
 > is **not **compact
 
 ### Bolzano-Weierstrass Theorem
