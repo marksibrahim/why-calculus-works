@@ -232,10 +232,15 @@ With this tool we can now show why Heine-Borel is true
 > 
 > 
 > 1. **=&gt; closed**: idea show K already contains its boundary
+> 
 >   1. choose x in K's closure
+> 
 >   2. there is a sequence xn in K converging to x
+> 
 >   3. xn is Cauchy, implying xn must converge to a point in K
+> 
 >   4. hence x is in K
+> 
 > 
 > 2. **&lt;= Compact**:
 >   1. K is inside some interval \[-M, M\], because it's bounded
