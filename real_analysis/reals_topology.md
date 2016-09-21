@@ -211,15 +211,16 @@ Why is this true? We'll chop our bounds in half and use the nested intervals the
 
 ### Heine-Borel
 
-A set K in $$\mathbb{R}$$ is **compact &lt;====&gt; **it's **closed **and bounded
+A set K in $$\mathbb{R}$$ is **compact &lt;====&gt; **it's **closed **and **bounded**
 
-
+> idea: 
+> 
+> 1. **=&gt; Bounded**: suppose not
+>   1. there exists some a&lt;sub&gt;n&lt;\/sub&gt;
 
 \[in progress\]
 
 ## Big Picture
 
 What have we accomplished? We showed x, y, and z...
-
-
 
