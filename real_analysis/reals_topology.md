@@ -229,14 +229,15 @@ With this tool we can now show why Heine-Borel is true
 >   1. there exists some unbounded sequence, an
 >   2. every subsequence is also unbounded, contradicting Bolzano-Weierstrass
 > 
-> 2. **=&gt; closed**: idea show K already contains its boundary
->   1. choose x in K's closure
->   2. there is a sequence xn in K converging to x
->   3. xn is Cauchy, implying xn must converge to a point in K
->     1. hence x is in K
+>   1. **=&gt; closed**: idea show K already contains its boundary
+>     1. choose x in K's closure
+>     2. there is a sequence xn in K converging to x
+>     3. xn is Cauchy, implying xn must converge to a point in K
+>      1. hence x is in K
 > 
 > 
-> 3. **&lt;= Compact**: 
+> 
+> 1. **&lt;= Compact**: 
 >   1. K is inside some interval \[-M, M\], because it's bounded
 >   2.
 
