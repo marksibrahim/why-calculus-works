@@ -41,6 +41,7 @@ $$
 why? The idea is to use $$\vec{u} \dot \vec{v} = \abs{u} \abs{v} \cos ($$ angel between them.
 
 > #### primary::Vector
+> 
 > a vector is a point in $$\mathbb{R}^n$$
 > 
 > * it looks like $$(x_1, x_2, x_3)$$ where each $$x$$ is in $$\mathbb{R}$$
@@ -61,6 +62,7 @@ Nevertheless, the set of rationals is countable. Make a table:
 This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) discussing infinity and the reals.
 
 > #### warning::Infinity + or -
+> 
 > is **not** in the set of real numbers
 
 ---
@@ -102,19 +104,25 @@ Common examples are Euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and su
 
 Norms in this context will later generalize to classes of functions with nice integration properties in measure theory.
 
-> #### primary::L2 and Lp norms 
-> $$
-> \left ( \sum_i  | x_i |^p \right )^{1/p}
-> $
+> #### primary::L2 and Lp norms
 > 
+> $$
+> \left \( \sum\_i  \| x\_i \|^p \right \)^{1\/p}
+> $
 > 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
 
-More generall we can talk about metric spaces, rather than just $$\mathbb{R}Y^n$$ or a vector space. A **metric space **is a set M with a distinace metric, d: MxM -&gt; \[0, ∞\) such that
+More generall we can talk about metric spaces, rather than just $$\mathbb{R}^n$$ or a vector space with a norm. A **metric space **is any set M with a distinace metric, d: MxM -&gt; \[0, ∞\) such that
 
 1. symmetric: \_d\(a, b\) = d\(b, a\) for a, b in M
 2. _definite_: d\(a, b\) = 0 if and only if a = b
 3. triangle: \_d\(a, c\) ≤ d\(a, b\) + d\(b, c\)
+
+Many of the topological properites we'll explore applies to general metric spaces: all you need is a set and a reasonable way to measure distance. 
+
+> #### info::topological space
+> 
+> is a set and a collection of subsets with special properities about unions and intersections. The open sets of a metric space always form a topological space!
 
 ### Neighborhoods
 
@@ -137,6 +145,7 @@ A set is **open**, if for any point, there is an open ball \(of any radius\) _en
 A set is **closed**, if the set's complement is open.
 
 > #### warning::closed and open
+> 
 > are not mutually exclusive; a set can be both! \(for example $$\mathbb{R}$$ and $$\emptyset$$ \)
 
 An **accumulation** \(or **limit point**\) of a set is one where every open ball centered at the limit point contains at least one other point in the set. Alternatively, we can think of a limit point as the limit of some sequence of points in the set.
@@ -158,6 +167,7 @@ A metric space is **compact** if every open cover has a finite subcover. An **op
 It turns out there's a relationship between compactness and sequences in a space. If every sequence in space has a convergent subsequence, we say the the space is **sequentially compact**. It turns out **sequentially compact ** and **compact **are equivalent in any metric space!
 
 > #### warning:: In Topological Spaces
+> 
 > sequentially compact and compact are **not** equivalent
 
 A **compact **metric space is always **complete**, meaning every Cauchy sequence converges.
@@ -184,6 +194,7 @@ $$
 This will be used to show two famous theorems: Bolzano-Weierstrass and Heine-Borel.
 
 > #### warning:: the set of reals
+> 
 > is **not **compact
 
 ### Bolzano-Weierstrass Theorem
