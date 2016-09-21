@@ -8,18 +8,18 @@ Because we so often forget material we learn, I'm recording my understanding of 
 
 * Real Analysis
 
-  * real numbers
-  * topology: open, compact, connected
-  * functions, limits and continuity
-  * differentiation: mean value, Taylor,
-  * series and convergence
-  * integration
+  * Real numbers
+  * Topology: open, compact, connected
+  * Functions, limits and continuity
+  * Differentiation: mean value, Taylor,
+  * Series and convergence
+  * Integration
 
 
 Althought dry, Apostol's _Mathematical Analysis_ is a helpful reference.
 
-* Complex Analysis \(start with Weselyan notes\)
-  * complex plane
+* Complex Analysis (start with Weselyan notes)
+  * Complex plane
   * ...
 
 
