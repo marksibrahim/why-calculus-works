@@ -190,7 +190,7 @@ $$
 > 
 > 4. Then $$C\_i = X \setminus O\_i = \emptyset$$, a contradiction!
 
-This will be used to show two famous theorems: Bolzano-Weierstrass and Heine-Borel. 
+This will be used to show two famous theorems: Bolzano-Weierstrass and Heine-Borel.
 
 > #### warning:: the set of reals
 > 
@@ -202,13 +202,15 @@ Every bounded sequence in $$\mathbb{R}^n$$ has a convergent subsequence.
 
 > **bounded** means contained in a ball of finite radius
 
-Why is this true? We'll chop our bounds in half and use the nested intervals theorem. 
+Why is this true? We'll chop our bounds in half and use the nested intervals theorem:
 
-\[TODO: fill in proof and intuition from handwritten notes\]
+![](/assets/Screen Shot 2016-09-21 at 4.07.37 PM.png)
 
-### Covers, Compactness, and Heine-Borel Theorem
+### Heine-Borel
 
-\[TODO: fill in from handwritten notes\]
+A set K in $$\mathbb{R}$$ is **compact &lt;====&gt; **it's **closed **and bounded
+
+### \[TODO: fill in proof\]
 
 ---
 
