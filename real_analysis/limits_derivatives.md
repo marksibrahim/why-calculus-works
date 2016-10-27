@@ -10,7 +10,7 @@ $$
 $$
 
 
-This means for any number $$\epsilon > 0$$, there exists $$N$$ such that for all $$n > N$$,
+This notation means for any number $$\epsilon > 0$$, there exists $$N$$ such that for all $$n > N$$,
 
 
 $$
