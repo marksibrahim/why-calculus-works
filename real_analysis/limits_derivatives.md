@@ -1,4 +1,4 @@
-Here, I'll talk about limits, functions, and derivatives.
+The magic of the infinitesimal: limits, functions, and derivatives.
 
 ## Limits and Continuity
 
