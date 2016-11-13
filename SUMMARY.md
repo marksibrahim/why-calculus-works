@@ -7,5 +7,5 @@
    * [Integration](real_analysis/integration.md)
 * [Measure Theory](measure_theory.md)
 * [Complex Analysis](complex_analysis.md)
-* Goodies
+* [Goodies](goodies.md)
 
