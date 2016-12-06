@@ -1,6 +1,6 @@
 # Real Analysis
 
-This will begin with a description of real numbers, completeness, compactness, and some topology—ultimately leading to integration and differentiation.
+This will begin with a description of real numbers, completeness, compactness, and some topology&mdash;ultimately leading to integration and differentiation.
 
 ## Real Numbers
 
@@ -38,7 +38,7 @@ $$
 $$
 
 
-why? The idea is to use $$\vec{u} \dot \vec{v} = \abs{u} \abs{v} \cos ($$ angel between them.
+why? The idea is to use $$\vec{u} \cdot \vec{v} = |u||v| \cos($$ angel between them$$)$$.
 
 > #### primary::Vector
 > 
@@ -105,14 +105,11 @@ Common examples are Euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and su
 Norms in this context will later generalize to classes of functions with nice integration properties in measure theory.
 
 > #### primary::L2 and Lp norms
-> 
-> $$
-> \left \( \sum\_i  \| x\_i \|^p \right \)^{1\/p}
-> $
+> $$ (\sum_i |x_i|^p )^{1/p}$$
 > 
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
 
-More generall we can talk about metric spaces, rather than just $$\mathbb{R}^n$$ or a vector space with a norm. A **metric space **is any set M with a distinace metric, d: MxM -&gt; \[0, ∞\) such that
+More generally we can talk about metric spaces, rather than just $$\mathbb{R}^n$$ or a vector space with a norm. A **metric space **is any set M with a distinace metric, d: MxM -&gt; \[0, ∞\) such that
 
 1. symmetric: \_d\(a, b\) = d\(b, a\) for a, b in M
 2. _definite_: d\(a, b\) = 0 if and only if a = b
@@ -253,4 +250,7 @@ With this tool we can now show why Heine-Borel is true
 ## Big Picture
 
 What have we accomplished? We showed x, y, and z...
+
+**TODO**:
+- understand abstraction level between various spaces (metric, vector, function) and their corresponding distance measures. 
 
