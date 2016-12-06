@@ -245,7 +245,7 @@ With this tool we can now show why Heine-Borel is true
 >   2. Since K is closed and \[-M, M\] is compact, K is closed
 >     1. by our Tool above!
 
-\[in progress\]
+\[notes transcribed\]
 
 ## Big Picture
 
