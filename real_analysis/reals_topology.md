@@ -1,16 +1,16 @@
 # Real Analysis
 
-This will begin with a description of real numbers, completeness, compactness, and some topology&mdash;ultimately leading to integration and differentiation.
+This will begin with a description of real numbers, completeness, compactness, and some topology—ultimately leading to integration and differentiation.
 
 ## Real Numbers
 
-These are the numbers you and I know: 0, 1, -1, 1.5, and even $$\pi$$. 
-**Rational** numbers are ones we can represent as an integer divided by another.
-It turns out many numbers are **irrational** including $$\pi$$, $$\sqrt{2}$$, $$\sqrt{3}$$, and $$\sqrt{n}$$ for
+These are the numbers you and I know: 0, 1, -1, 1.5, and even $$\pi$$.   
+**Rational** numbers are ones we can represent as an integer divided by another.  
+It turns out many numbers are **irrational** including $$\pi$$, $$\sqrt{2}$$, $$\sqrt{3}$$, and $$\sqrt{n}$$ for  
 any $$n$$ that's not a perfect square \($$\neq$$ a number squared\).
 
 > **Idea**: use divisibility to show no rational number squared is 2.
-> 
+>
 > 1. if $$\sqrt{2} = a / b$$, then $$ 2 = a^2 / b^2$$ $$\implies a^2$$ is divisible by 2 
 > 2. So $$a$$ must be divisible by 2, implying $$b^2$$ is also divisible by 2, a contradiction!
 
@@ -21,8 +21,6 @@ More abstractly, the real numbers are uniquely determined by a handful of natura
 * **completeness** \(= least upper bound property\)
   * every set with an upper bound has a _least_ upper bound.
     * e.g., \(0, 1\) has 1 as an upper bound, but 1 is not in the set \(0, 1\)
-
-
 
 A nice consequence of this is the **triangle inequality: **$$ \| x + y \| \leq \|x\| + \|y\|$$ for any $$x, y \in \mathbb{R}$$.
 
@@ -41,16 +39,16 @@ $$
 why? The idea is to use $$\vec{u} \cdot \vec{v} = |u||v| \cos($$ angel between them$$)$$.
 
 > #### primary::Vector
-> 
+>
 > a vector is a point in $$\mathbb{R}^n$$
-> 
+>
 > * it looks like $$(x_1, x_2, x_3)$$ where each $$x$$ is in $$\mathbb{R}$$
-> 
+>
 > dot product is an operation on two vectors defined as:
-> 
+>
 > $$(x_1, x_2, x_3) \cdot (y_1, y_2, y_3) = x_1y_1 + x_2y_2 + x_3y_3$$
 
-Finally, how many real numbers are there? 
+Finally, how many real numbers are there?   
 Cantor showed there are actually uncountably many---you can never come up with a way to write a list of all real numbers even if you had all the time in the world.
 
 > **Idea**: suppose someone claimed to have a list of all reals \(this list would have to be infinite\). Then, we write down a number that's different from each one on the list in the nth decimal place
@@ -62,7 +60,7 @@ Nevertheless, the set of rationals is countable. Make a table:
 This is a great [TedEd video](http://ed.ted.com/lessons/how-big-is-infinity) discussing infinity and the reals.
 
 > #### warning::Infinity + or -
-> 
+>
 > is **not** in the set of real numbers
 
 ---
@@ -97,7 +95,6 @@ A norm is \(for $$x, y \in \mathbb{R}^n$$\):
 
 3. _triangle_: $$ \| x + y \| \leq \| x \| + \| y \| $$
 
-
 Common examples are Euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and sup-norm \(returns the peak value across all dimesions of vector; sup is the least upper bound, which isn't always in the set of interest\).
 
 > remember **vectors spaces** are sets with nice properties about addition and scalar multiplication
@@ -105,8 +102,9 @@ Common examples are Euclidean distance \(L2 norm\), Taxi Cab \(L1 norm\), and su
 Norms in this context will later generalize to classes of functions with nice integration properties in measure theory.
 
 > #### primary::L2 and Lp norms
+>
 > $$ (\sum_i |x_i|^p )^{1/p}$$
-> 
+>
 > In the case of L2, p = 2 \(this will show up again in measure theory\).
 
 More generally we can talk about metric spaces, rather than just $$\mathbb{R}^n$$ or a vector space with a norm. A **metric space **is any set M with a distinace metric, d: MxM -&gt; \[0, ∞\) such that
@@ -118,9 +116,9 @@ More generally we can talk about metric spaces, rather than just $$\mathbb{R}^n$
 Many of the topological properites we'll explore applies to general metric spaces: all you need is a set and a reasonable way to measure distance.
 
 > #### info::topological space
-> 
+>
 > is a set M and a collection of subsets, S, that contains the empty set & M, is closed under union, and finite intersections.
-> 
+>
 > e.g., the open sets of a metric space always form a topological space!
 
 ### Neighborhoods
@@ -134,17 +132,17 @@ With a notion of distance \(often, we use L2 or Euclidean distance\), we can def
 A set is **open**, if for any point, there is an open ball \(of any radius\) _entirely contained_ in the set.
 
 > It turns out even open set is the union of open balls \(potentially infinitely many\). Why?
-> 
+>
 > 1. for each x in the Open set, there is a radius r such that B\(x, r\) ≤ Open set
-> 
+>
 > 2. the union of all these B\(x, r\) \(for each x in the open set\) covers the open set
-> 
+>
 > 3. but each B\(x, r\) is contained in the open set ==&gt; U B\(x,r\) = Open set!
 
 A set is **closed**, if the set's complement is open.
 
 > #### warning::closed and open
-> 
+>
 > are not mutually exclusive; a set can be both! \(for example $$\mathbb{R}$$ and $$\emptyset$$ \)
 
 An **accumulation** \(or **limit point**\) of a set is one where every open ball centered at the limit point contains at least one other point in the set. Alternatively, we can think of a limit point as the limit of some sequence of points in the set.
@@ -166,7 +164,7 @@ A metric space is **compact** if every open cover has a finite subcover. An **op
 It turns out there's a relationship between compactness and sequences in a space. If every sequence in space has a convergent subsequence, we say the the space is **sequentially compact**. It turns out **sequentially compact ** and **compact **are equivalent in any metric space!
 
 > #### warning:: In Topological Spaces
-> 
+>
 > sequentially compact and compact are **not** equivalent
 
 A **compact **metric space is always **complete**, meaning every Cauchy sequence converges.
@@ -183,17 +181,17 @@ $$
 $$
 
 
-> **Idea: **suppose $$\cap C\_n = \emptyset$$, then
-> 1. Let $$O\_n = X \setminus C\_n$$ for each n
-> 2. Then U On is an open cover for X =&gt; there is a finite subcover
->   1. say $$\cap\_{n=1}^k O\_n$$
-> 3. Yet, because C\_n are nested, only a single O\_i covers X
+> **Idea: **suppose $$\cap C\_n = \emptyset$$, then  
+> 1. Let $$O\_n = X \setminus C\_n$$ for each n  
+> 2. Then U On is an open cover for X =&gt; there is a finite subcover  
+>   1. say $$\cap\_{n=1}^k O\_n$$  
+> 3. Yet, because C\_n are nested, only a single O\_i covers X  
 > 4. Then $$C\_i = X \setminus O\_i = \emptyset$$, a contradiction!
 
 This will be used to show two famous theorems: Bolzano-Weierstrass and Heine-Borel.
 
 > #### warning:: the set of reals
-> 
+>
 > is **not **compact
 
 ### Bolzano-Weierstrass Theorem
@@ -211,39 +209,36 @@ Why is this true? We'll chop our bounds in half and use the nested intervals the
 A set K in $$\mathbb{R}$$ is **compact &lt;====&gt; **it's **closed **and **bounded**
 
 > #### primary::Tool
-> 
+>
 > **a closed subset, C, of a compact, K, set is compact**
-> 
+>
 > 1. Let U O be an open cover of C
-> 2. U O U {K \ C} is open and covers K
+> 2. U O U {K  C} is open and covers K
 > 3. there is a finite subcover of K, hence one for C
 
 With this tool we can now show why Heine-Borel is true
 
 > idea:
-> 
+>
 > 1. **=&gt; Bounded**: suppose not
-> 
->   1. there exists some unbounded sequence, an 
->   2. every subsequence is also unbounded, contradicting Bolzano-Weierstrass
-> 
-> 
+>
+>    1. there exists some unbounded sequence, an 
+>    2. every subsequence is also unbounded, contradicting Bolzano-Weierstrass
+>
 > 1. **=&gt; closed**: idea show K already contains its boundary
-> 
->   1. choose x in K's closure
-> 
->   2. there is a sequence xn in K converging to x
-> 
->   3. xn is Cauchy, implying xn must converge to a point in K
-> 
->     1. hence x is in K
-> 
-> 
-> 
+>
+>    1. choose x in K's closure
+>
+>    2. there is a sequence xn in K converging to x
+>
+>    3. xn is Cauchy, implying xn must converge to a point in K
+>
+>       1. hence x is in K
+>
 > 1. **&lt;= Compact**:
->   1. K is inside some interval \[-M, M\], because it's bounded
->   2. Since K is closed and \[-M, M\] is compact, K is closed
->     1. by our Tool above!
+>    1. K is inside some interval \[-M, M\], because it's bounded
+>    2. Since K is closed and \[-M, M\] is compact, K is closed
+>       1. by our Tool above!
 
 \[notes transcribed\]
 
@@ -252,5 +247,8 @@ With this tool we can now show why Heine-Borel is true
 What have we accomplished? We showed x, y, and z...
 
 **TODO**:
-- understand abstraction level between various spaces (metric, vector, function) and their corresponding distance measures. 
+
+* understand abstraction level between various spaces \(metric, vector, function\) and their corresponding distance measures. 
+
+
 
