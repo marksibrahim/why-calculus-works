@@ -32,9 +32,11 @@ It also turns out that when n is large and p is very small, Poisson Distribution
 
 Flexible family of continuous distributions on \[0, 1\]. Beta distributions are defined by two parameters:$$\alpha, \beta$$, . It's often used for characterizing prior probabilities in Bayesian modeling.
 
-![](/assets/Beta_distribution_pdf.svg)
+$$Beta(\alpha, \beta) PDF = \text{ constant } x^{\alpha - 1} (1 - x)^{\beta - 1} $$
 
-The Beta distribution is the **conjugate prior** of the binomial distribution, meaning if you start with "likelihood function", P\(X \| p\) ~ Binomial\(n, p\) and a prior = f\(p\) ~ Beta, then the posterior P\(p \| X=k\) ~ Beta. 
+* constant depends on alpha and beta, and ensures pdf integrates to one. ![](/assets/Beta_distribution_pdf.svg)
+
+The Beta distribution is the **conjugate prior** of the binomial distribution, meaning if you start with "likelihood function", P\(X \| p\) ~ Binomial\(n, p\) and a prior = f\(p\) ~ Beta, then the posterior P\(p \| X=k\) ~ Beta.
 
 > In general, if the prior and posterior probabilities are in the same family, they are said to be **conjugate distributions**.
 
