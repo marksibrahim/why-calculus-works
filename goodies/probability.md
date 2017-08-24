@@ -10,7 +10,11 @@ Recall, $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
 
 The **Bernoulli Distribution** is a is a special case of a Binomial Distribution where a single experiment is conducted \(a single coin flip, with potentially unfair coins\).
 
-A multinomial distribution \[TODO\]
+A **multinomial distribution** generalizes the binomial distribution, by allowing the number of outcomes to be more than two. There are k outcomes, each with probability $$x = y$$ of occurring, leading to
+
+$$P(x_1, x_2, \dots, x_k) = \frac{n!}{x_1! x_2! \dots x_k!} p_1^{x_1} \dots p_k^{x_k}$$
+
+where x\_i is the number of times outcome i occurred and n is the number of trials. This is applicable to determining the outcome of a dice or sampling from a bag of different colored balls with replacement and determining the probability of grabbing 2 red, 3 brown, and 5 yellow balls.  
 
 ## Poisson Distribution
 
@@ -36,14 +40,9 @@ $$P(x_1, x_2, \dots, x_n) = P(x_1) * [ P(x_2 | x_1, x_3, \dots, x_n) * P(x_3 | x
 
 is an extension of factorial to all reals/complex numbers
 
- For postivie integer n, it's  ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/8657e8abd0241c92c2c48e4ff5041394098ded90 "\Gamma \(n\)=\(n-1\)!.")
+For postivie integer n, it's  ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/8657e8abd0241c92c2c48e4ff5041394098ded90 "\Gamma \(n\)=\(n-1\)!.")
 
-For complex numbers with positive real component, ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/5ec163a2e987909af37e1f8d6975b7080f8278e8 "{\displaystyle \Gamma \(z\)=\int \_{0}^{\infty }x^{z-1}e^{-x}\,\mathrm {d} x.}")  
+For complex numbers with positive real component, ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/5ec163a2e987909af37e1f8d6975b7080f8278e8 "{\displaystyle \Gamma \(z\)=\int \_{0}^{\infty }x^{z-1}e^{-x}\,\mathrm {d} x.}")
 
-
-This ends up popping up in many distributions, especially beta! 
-
-
-
-
+This ends up popping up in many distributions, especially beta!
 
