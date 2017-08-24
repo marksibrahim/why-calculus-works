@@ -14,7 +14,7 @@ A **multinomial distribution** generalizes the binomial distribution, by allowin
 
 $$P(x_1, x_2, \dots, x_k) = \frac{n!}{x_1! x_2! \dots x_k!} p_1^{x_1} \dots p_k^{x_k}$$
 
-where x\_i is the number of times outcome i occurred and n is the number of trials. This is applicable to determining the outcome of a dice or sampling from a bag of different colored balls with replacement and determining the probability of grabbing 2 red, 3 brown, and 5 yellow balls.  
+where x\_i is the number of times outcome i occurred and n is the number of trials. This is applicable to determining the outcome of a dice or sampling from a bag of different colored balls with replacement and determining the probability of grabbing 2 red, 3 brown, and 5 yellow balls.
 
 ## Poisson Distribution
 
@@ -27,6 +27,14 @@ $$P( k \text{ events in interval}) = \frac{\lambda^k e^{-\lambda}}{k!}$$
 Lambda is the expected number of occurrence—this can be shown by computing the expected value over n trial.
 
 It also turns out that when n is large and p is very small, Poisson Distribution approach a Binomial Distribution.
+
+## Beta Distribution
+
+Flexible family of continuous distributions on \[0, 1\]. Beta distributions are defined by two parameters:$$\alpha, \beta$$, . It's often used for characterizing prior probabilities in Bayesian modeling.
+
+The Beta distribution is the **conjugate prior** of the binomial distribution, meaning if you start with "likelihood function", P\(X \| p\) ~ Binomial\(n, p\), then both the prior = f\(p\) and the posterior P\(p \| X=k\) are ~ Beta$$(\alpha, \beta)$$.
+
+> In general, if the prior and posterior probabilities are in the same family, they are said to be **conjugate distributions**.
 
 # Goodies
 
