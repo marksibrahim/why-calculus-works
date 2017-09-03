@@ -42,6 +42,14 @@ The Beta distribution is the **conjugate prior** of the binomial distribution, m
 
 # Goodies
 
+* a **probability density** function is for continuous variables; a **probability mass function** is for discrete. 
+* a **latent variable** is a random variable that can't be observed directly.
+
+* In information theory, the new information gained by observing event x is: - log P\(x\)
+  * this yields a high value for unlikely events, and lower values for likely events
+    * we don't learn very little by observing the sun rising yet again
+* For a multivariate distribution, say p\(x, y\), the **marginal probability** fixes one variable: p\(x, y=3\).
+
 ## Chain Rule of Conditional Probabilities
 
 A joint probability over several random variables can be decomposed using the "chain rule for probability"
@@ -57,4 +65,12 @@ For postivie integer n, it's  ![](https://wikimedia.org/api/rest_v1/media/math/r
 For complex numbers with positive real component, ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/5ec163a2e987909af37e1f8d6975b7080f8278e8 "{\displaystyle \Gamma \(z\)=\int \_{0}^{\infty }x^{z-1}e^{-x}\,\mathrm {d} x.}")
 
 This ends up popping up in many distributions, especially beta!
+
+# Dirac
+
+The dirac function is zero everywhere except at a single point and integrates to one. This makes it a nice probability density function clustering entirely around a single point.
+
+
+
+
 
