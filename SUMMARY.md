@@ -9,4 +9,5 @@
 * [Complex Analysis](complex_analysis.md)
 * [Goodies](goodies.md)
   * [Probability](goodies/probability.md)
+  * [Calculus Computations](goodies/calculus.md)
 
