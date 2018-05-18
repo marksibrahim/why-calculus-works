@@ -18,13 +18,11 @@ $$\lim_{x \rightarrow x_0}  \frac{|| F(x) - F(x_0) - A(x - x_0) || }{||x - x_0||
 
 It turns out if A exists, it must be the **Jacobian** \(first order partial derivatives\)!
 
-
-
 ## Convexity
 
 ### Sets
 
-A set is convex if the line between any two points is in the set. Formally, this means
+A **set is convex** if the **line between any two points** is in the set. Formally, this means
 
 
 $$
@@ -32,17 +30,19 @@ $$
 
  \lambda a + (1 - \lambda) b \in S
 $$
+
+
 where $$ 0 \leq \lambda \leq 1$$
 
-Circles, triangles are all convex sets. Pacman isn't, because you can draw with a part outside the set. 
+Circles, triangles are all convex sets. Pacman isn't, because you can draw with a part outside the set.
 
 ### Functions
 
-A function is convex if the line connecting any two points is above the function. This can be defined formally using a parameter $$\lambda$$similar to the definition for sets. 
+A function is convex if the** line connecting any two points** is above the function. This can be defined formally using a parameter $$\lambda$$similar to the definition for sets.
 
-Who cares? Convex function have a single global minimum, so algorithms such as gradient descent work well, because they don't get stuck in global optima. 
+Who cares? Convex function have a **single global minimum**, so algorithms such as gradient descent work well, because they don't get stuck in global optima.
 
-We can test for convexity using the second derivative test as well! If f'' &gt; 0, then f is convex. 
+We can test for convexity using the **second derivative test** as well! If f'' &gt; 0, then f is convex.
 
 ## Line \(path\) Integrals
 
