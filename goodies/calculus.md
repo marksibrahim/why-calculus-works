@@ -18,6 +18,32 @@ $$\lim_{x \rightarrow x_0}  \frac{|| F(x) - F(x_0) - A(x - x_0) || }{||x - x_0||
 
 It turns out if A exists, it must be the **Jacobian** \(first order partial derivatives\)!
 
+
+
+## Convexity
+
+### Sets
+
+A set is convex if the line between any two points is in the set. Formally, this means
+
+
+$$
+\text{ For all } a, b \in S, 
+
+ \lambda a + (1 - \lambda) b \in S
+$$
+where $$ 0 \leq \lambda \leq 1$$
+
+Circles, triangles are all convex sets. Pacman isn't, because you can draw with a part outside the set. 
+
+### Functions
+
+A function is convex if the line connecting any two points is above the function. This can be defined formally using a parameter $$\lambda$$similar to the definition for sets. 
+
+Who cares? Convex function have a single global minimum, so algorithms such as gradient descent work well, because they don't get stuck in global optima. 
+
+We can test for convexity using the second derivative test as well! If f'' &gt; 0, then f is convex. 
+
 ## Line \(path\) Integrals
 
 A line integral means the same thing as a path, contour \(typically line integral in the complex plane\), or curve integrals.
@@ -72,11 +98,9 @@ $$div(F) = \nabla \times F$$$$ $$
 
 Since cross product is only defined in R^3, curl is also restricted to R^3. **Stoke's theorem** relates curl to the integral of F along a closed curve.
 
-
-
 # Resources
 
-* a list of important counter-examples. such as a function that's continuous at only a single point: http://www.math.tamu.edu/~tom.vogel/gallery/gallery.html
+* a list of important counter-examples. such as a function that's continuous at only a single point: [http://www.math.tamu.edu/~tom.vogel/gallery/gallery.html](http://www.math.tamu.edu/~tom.vogel/gallery/gallery.html)
 * 
 
 
