@@ -46,8 +46,10 @@ The Beta distribution is the **conjugate prior** of the binomial distribution, m
 * a **latent variable** is a random variable that can't be observed directly.
 
 * In information theory, the new information gained by observing event x is: - log P\(x\)
+
   * this yields a high value for unlikely events, and lower values for likely events
     * we don't learn very little by observing the sun rising yet again
+
 * For a multivariate distribution, say p\(x, y\), the **marginal probability** fixes one variable: p\(x, y=3\).
 
 ## Chain Rule of Conditional Probabilities
@@ -69,8 +71,4 @@ This ends up popping up in many distributions, especially beta!
 # Dirac
 
 The dirac function is zero everywhere except at a single point and integrates to one. This makes it a nice probability density function clustering entirely around a single point.
-
-
-
-
 
