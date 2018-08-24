@@ -44,6 +44,34 @@ Who cares? Convex function have a **single global minimum**, so algorithms such 
 
 We can test for convexity using the **second derivative test** as well! If f'' &gt; 0, then f is convex.
 
+# Convex Optimization and Lagrange Multipliers
+
+Lagrange multipliers is a technique for finding the minimum or maximum of a function subject to a an equality constraint. 
+
+For example, finding the minimum of 
+
+$$f(x_1, x_2) = x_1^2 - 2x_2, \text{ subject to } x_1^2 + x_2^2 = 1.$$
+
+More generally, we want to find the min or max of f subject to g = constant. 
+
+The method of Lagrange Multipliers states that we can solve this optimization problem by solving:
+
+$$\nabla f(\vec{x}) = \lambda \nabla g(\vec{x}) \text{ and } g(\vec{x}) = k$$ 
+
+where g defines the constraint and $$\lambda$$ is a constant used to solve the equations. The solutions to this system provide the set of possible critical points at which a minimum or maximum can occur.
+
+Why does this work? We know gradients point in the steepest direction. We need both the function and the constraint to point in the same steepest direction. This is because if f is at a min or max at a point say c, then the gradient of f at c must be parallel to the gradient of g at c.
+
+Here's a picture to illustrate. Imagine this is the curve at the intersection of f and g: 
+
+
+
+## ![](/assets/lagragne2.png)
+
+\(picture from [Quora](https://www.quora.com/Why-does-the-method-of-Lagrange-multipliers-work-for-optimization-in-multivariable-calculus-Why-exactly-given-a-function-f-x-y-and-a-constraint-g-x-y-c-can-we-set-the-gradients-of-the-functions-to-be-multiples-of-each-other)\)
+
+Therefore, the gradients must point in the same direction. 
+
 ## Line \(path\) Integrals
 
 A line integral means the same thing as a path, contour \(typically line integral in the complex plane\), or curve integrals.
